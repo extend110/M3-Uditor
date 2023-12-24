@@ -41,27 +41,27 @@
             this.headerText1.ForeColor = System.Drawing.Color.White;
             this.headerText1.GradientColor = System.Drawing.Color.RoyalBlue;
             this.headerText1.Location = new System.Drawing.Point(0, 0);
+            this.headerText1.Margin = new System.Windows.Forms.Padding(6, 3, 3, 3);
             this.headerText1.Name = "headerText1";
+            this.headerText1.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
             this.headerText1.Size = new System.Drawing.Size(558, 98);
             this.headerText1.TabIndex = 0;
             this.headerText1.Text = "Removing Streams";
             // 
             // progressBarRemoveStatus
             // 
-            this.progressBarRemoveStatus.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.progressBarRemoveStatus.BarColorCenter = System.Drawing.Color.RoyalBlue;
-            this.progressBarRemoveStatus.BarColorOutside = System.Drawing.Color.Black;
-            this.progressBarRemoveStatus.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.progressBarRemoveStatus.Location = new System.Drawing.Point(12, 114);
+            this.progressBarRemoveStatus.Location = new System.Drawing.Point(12, 112);
             this.progressBarRemoveStatus.Name = "progressBarRemoveStatus";
-            this.progressBarRemoveStatus.Size = new System.Drawing.Size(534, 23);
-            this.progressBarRemoveStatus.TabIndex = 29;
-            this.progressBarRemoveStatus.Text = "mProgressBar1";
+            this.progressBarRemoveStatus.ProgressBarColor = System.Drawing.Color.RoyalBlue;
+            this.progressBarRemoveStatus.ProgressBarFont = new System.Drawing.Font("Segoe UI", 8F);
+            this.progressBarRemoveStatus.Size = new System.Drawing.Size(534, 26);
+            this.progressBarRemoveStatus.TabIndex = 1;
             // 
             // FormRemoveStreams
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(558, 152);
             this.Controls.Add(this.progressBarRemoveStatus);
             this.Controls.Add(this.headerText1);
@@ -71,6 +71,7 @@
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "M3-Uditor";
             this.Shown += new System.EventHandler(this.FormRemoveStreams_Shown);
             this.ResumeLayout(false);
 

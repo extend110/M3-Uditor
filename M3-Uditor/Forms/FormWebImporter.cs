@@ -18,7 +18,7 @@ namespace M3_Uditor.Forms
         {
             get { return _url; }
         }
-        public string TempFile = "tmp";
+        public string TempFile = "temp.m3u";
 
         private WebClient _webClient;
         private string _url;
@@ -42,6 +42,9 @@ namespace M3_Uditor.Forms
 
             textBoxUrl.Visible = false;
             progressBarDownload.Visible = true;
+
+            buttonOk.Visible = false;
+            buttonCancel.Location = buttonOk.Location;
         }
 
         private void WebClient_DownloadFileCompleted(object sender, AsyncCompletedEventArgs e)
@@ -52,7 +55,6 @@ namespace M3_Uditor.Forms
         private void WebClient_DownloadProgressChanged(object sender, DownloadProgressChangedEventArgs e)
         {
             progressBarDownload.Value = e.ProgressPercentage;
-            textBoxUrl.Text = string.Format("Downloading: {0}", e.ProgressPercentage.ToString());
         }
 
         private void buttonCancel_Click(object sender, EventArgs e)
@@ -65,6 +67,9 @@ namespace M3_Uditor.Forms
             if (_webClient.IsBusy)
             {
                 _webClient.CancelAsync();
+                if (System.IO.File.Exists(TempFile))
+                    System.IO.File.Delete(TempFile);
+
                 DialogResult = DialogResult.Cancel;
             }
         }

@@ -37,13 +37,12 @@ namespace M3_Uditor.Forms
             foreach (Stream stream in _streams)
             {
                 if (stream.Status == Stream.OnlineStatus.Offline)
-                {
-                    this.Invoke(new MethodInvoker(() =>
-                    {
-                        progressBarRemoveStatus.Value++;
-                    }));
                     _group.RemoveStream(stream);
-                }
+
+                this.Invoke(new MethodInvoker(() =>
+                {
+                    progressBarRemoveStatus.Value++;
+                }));
             }
 
             Invoke(new Action(() => { Close(); }));

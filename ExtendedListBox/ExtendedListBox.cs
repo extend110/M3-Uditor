@@ -5,9 +5,12 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.IO;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Navigation;
+using static M3Controls.ExtendedListBox;
 using static System.Net.Mime.MediaTypeNames;
 
 namespace M3Controls
@@ -18,15 +21,26 @@ namespace M3Controls
         public int IconIndex;
         public Rectangle IconRectangle;
     }
+
     public class ExtendedListBox : ListBox
     {
+        [DllImport("user32.dll", CharSet = CharSet.Auto)]
+        public static extern int GetScrollPos(IntPtr hWnd, int nBar);
+        [DllImport("user32.dll", CharSet = CharSet.Auto)]
+        protected static extern int SendMessage(IntPtr hWnd, int wMsg, IntPtr wParam, IntPtr lParam);
+
+        protected const int WM_VSCROLL = 0x115;
+        public enum ScrollCommand : int { Up = 0x0, Down = 0x1, EndScroll = 0x8 }
+        public enum ScrollBarDirection : int { Horizontal = 0x0, Vertical = 0x1 }
+        private ScrollCommand _scrollCommand;
+
+        Timer _scrollTimer;
+
         //Events
         public event EventHandler<ItemClickedEventArgs> IconClicked;
-        //public event EventHandler<ListBoxItem> IconClicked;
 
         //Properties
-        [Category("M3 - Controls")]
-        public MStatusBar StatusBar {  get; set; }
+        public bool AutoScroll { get; set; }
 
         [Category("M3 - Controls")]
         public int ItemMargin
@@ -55,6 +69,23 @@ namespace M3Controls
             set
             {
                 _DescriptionFont = value;
+            }
+        }
+
+        [Category("M3 - Controls")]
+        public Color DescriptionColor
+        {
+            get
+            {
+                if (_DescriptionFont == null)
+                {
+                    return SystemColors.WindowText;
+                }
+                return _DescriptionColor;
+            }
+            set
+            {
+                _DescriptionColor = value;
             }
         }
 
@@ -97,6 +128,25 @@ namespace M3Controls
         [Category("M3 - Controls")]
         public Size IconSize { get; set; }
 
+        public bool ShowIndex { get => _showIndex; 
+            set 
+            {
+                _showIndex = value;
+                _showIndexMargin = value == true ? 30 : 0;
+            } 
+        }
+        public bool HasItems
+        {
+            get
+            {
+                return this.Items.Count > 0;
+            }
+        }
+        public string NoItemsMessage { get; set; }
+
+        private int _showIndexMargin = 0;
+        private bool _showIndex = false;
+
         private int _ItemMargin = 15;
         private Font _DescriptionFont;
 
@@ -104,15 +154,66 @@ namespace M3Controls
         private Color _HighlightColor;
         private float _HighlightOpacity;
 
+        private Color _DescriptionColor;
+
         private bool _handleIconClick = false;
 
         public ExtendedListBox()
         {
+            DoubleBuffered = true;
+      
+            _scrollTimer = new Timer() { Interval = 20 };
+            _scrollTimer.Tick += _scrollTimer_Tick;
+
             this.SetStyle(
-                ControlStyles.OptimizedDoubleBuffer |
+                ControlStyles.AllPaintingInWmPaint |
                 ControlStyles.ResizeRedraw |
                 ControlStyles.UserPaint,
                 true);
+        }
+
+        public void Scroll(ScrollCommand scrollCommand)
+        {
+            if (!AutoScroll) return;
+
+            _scrollCommand = scrollCommand;
+
+            switch (_scrollCommand)
+            {
+                case ScrollCommand.Up:
+                    if (!_scrollTimer.Enabled) _scrollTimer.Start();
+                    break;
+                case ScrollCommand.Down:
+                    if (!_scrollTimer.Enabled) _scrollTimer.Start();
+                    break;
+                case ScrollCommand.EndScroll:
+                    if (_scrollTimer.Enabled) _scrollTimer.Stop();
+                    break;
+            }
+        }
+
+        private void _scrollTimer_Tick(object sender, EventArgs e)
+        {
+            SendMessage((IntPtr)Handle, WM_VSCROLL, (IntPtr)_scrollCommand, IntPtr.Zero);
+            SendMessage((IntPtr)Handle, WM_VSCROLL, (IntPtr)ScrollCommand.EndScroll, IntPtr.Zero);
+        }
+
+        private string TruncateString(string text, Font font)
+        {
+            string truncatedText = text;
+            int descriptionLength = TextRenderer.MeasureText(truncatedText + "...", font).Width;
+            int maxTextWidth = Width - (32 * (IconCount * 2));
+            if (descriptionLength > maxTextWidth)
+            {
+                int i = truncatedText.Length;
+                while (TextRenderer.MeasureText(truncatedText + "...", font).Width > maxTextWidth)
+                {
+                    truncatedText = truncatedText.Substring(0, --i);
+                    if (i == 0) break;
+                }
+                truncatedText = truncatedText + "...";
+            }
+            return truncatedText;
         }
 
         protected override void OnDrawItem(DrawItemEventArgs e)
@@ -121,53 +222,46 @@ namespace M3Controls
             
             // get the item to draw
             ListBoxItem item = Items[e.Index] as ListBoxItem;
+            item.Bounds = e.Bounds;
 
-            string Title = item.Title;
-            string Description = item.Description;
-
-            //TODO Truncate for display
-            int descriptionLength = TextRenderer.MeasureText(Description + "...", _DescriptionFont).Width;
-            int maxTextWidth = Width - (32 * (IconCount * 2));
-            if (descriptionLength > maxTextWidth)
-            {
-                int i = Description.Length;
-                while (TextRenderer.MeasureText(Description + "...", _DescriptionFont).Width > maxTextWidth)
-                {
-                    Description = Description.Substring(0, --i);
-                    if (i == 0) break;
-                }
-                Description = Description + "...";
-            }
+            string Title = TruncateString(item.Title, Font);
+            string Description = TruncateString(item.Description, DescriptionFont);
 
             // draw background
             e.DrawBackground();
 
-            // draw this if item is selected
-            if ((e.State & DrawItemState.Selected) == DrawItemState.Selected)
+            // setting up brushes
+            using (SolidBrush brushTitle = new SolidBrush(item.ColorTitle))
+            using (SolidBrush brushDescription = new SolidBrush(item.ColorDescription))
+            using (LinearGradientBrush brushHighlight = new LinearGradientBrush(e.Bounds, Color.FromArgb((int)(_HighlightOpacity * 255), _HighlightColor), Color.Transparent, 0f))
             {
-                e.Graphics.FillRectangle(new LinearGradientBrush(e.Bounds, Color.RoyalBlue, Color.Transparent, 180f), e.Bounds);
-                e.Graphics.DrawString(Title, this.Font, Brushes.White, e.Bounds.Left + 10, e.Bounds.Top + ItemMargin - (Font.Height / 2));
-                e.Graphics.DrawString(Description, this.DescriptionFont, Brushes.LightGray, e.Bounds.Left + 10, e.Bounds.Top + ItemMargin + (DescriptionFont.Height / 2), StringFormat.GenericTypographic);
-            }
-            else
-            {
-                //e.Graphics.FillRectangle(new LinearGradientBrush(e.Bounds, item.BackColor, Color.Transparent, 0f), e.Bounds);
-
-                // highlight item on mousehover
-                if (e.Bounds.Contains(PointToClient(Cursor.Position)))
+                // draw this if item is selected
+                if ((e.State & DrawItemState.Selected) == DrawItemState.Selected)
                 {
-                    using (LinearGradientBrush br = new LinearGradientBrush(e.Bounds, Color.FromArgb((int)(_HighlightOpacity * 255), _HighlightColor), Color.Transparent, 180))
+                    using (LinearGradientBrush backgroundBrush = new LinearGradientBrush(e.Bounds, Color.RoyalBlue, Color.Transparent, 180f))
+                        e.Graphics.FillRectangle(backgroundBrush, e.Bounds);
+
+                    if (ShowIndex)
+                        e.Graphics.DrawString((e.Index + 1).ToString(), Font, Brushes.White, e.Bounds.Left, e.Bounds.Top + ItemMargin - (Font.Height / 2));
+
+                    e.Graphics.DrawString(Title, this.Font, Brushes.White, e.Bounds.Left + 10 + _showIndexMargin, e.Bounds.Top + ItemMargin - (Font.Height / 2));
+                    e.Graphics.DrawString(Description, this.DescriptionFont, Brushes.White, e.Bounds.Left + 10 + _showIndexMargin, e.Bounds.Top + ItemMargin + (DescriptionFont.Height / 2), StringFormat.GenericTypographic);
+                }
+                else
+                {
+                    // highlight item on mousehover
+                    if (e.Bounds.Contains(PointToClient(Cursor.Position)))
                     {
                         if (_HighlightHover)
-                            e.Graphics.FillRectangle(br, e.Bounds.X + 5, e.Bounds.Y, e.Bounds.Width, e.Bounds.Height);
+                            e.Graphics.FillRectangle(brushHighlight, e.Bounds.X + _showIndexMargin, e.Bounds.Y, e.Bounds.Width, e.Bounds.Height);
                     }
-                }
 
-                // draw the item title and item description
-                using (SolidBrush br = new SolidBrush(e.ForeColor))
-                {
-                    e.Graphics.DrawString(Title, this.Font, Brushes.Black, e.Bounds.Left, e.Bounds.Top + ItemMargin - (Font.Height / 2));
-                    e.Graphics.DrawString(Description, this.DescriptionFont, Brushes.LightGray, e.Bounds.Left, e.Bounds.Top + ItemMargin + (DescriptionFont.Height / 2));
+                    // draw the item title and item description
+                    if ( ShowIndex )
+                        e.Graphics.DrawString((e.Index + 1).ToString(), Font, brushTitle, e.Bounds.Left, e.Bounds.Top + ItemMargin - (Font.Height / 2));
+
+                    e.Graphics.DrawString(Title, this.Font, brushTitle, e.Bounds.Left + _showIndexMargin, e.Bounds.Top + ItemMargin - (Font.Height / 2));
+                    e.Graphics.DrawString(Description, this.DescriptionFont, brushDescription, e.Bounds.Left + _showIndexMargin, e.Bounds.Top + ItemMargin + (DescriptionFont.Height / 2));
                 }
             }
 
@@ -219,16 +313,20 @@ namespace M3Controls
                         iRegion.Complement(irect);
                     }
                 }
+            } 
+            else
+            {
+                using (Font font = new Font("Segoe UI", 18f, FontStyle.Bold))
+                {
+                    Size textSize = TextRenderer.MeasureText(NoItemsMessage, font);
+                    e.Graphics.DrawString(NoItemsMessage, font, Brushes.LightGray, ClientRectangle.Width / 2 - textSize.Width / 2, 
+                                                                                   ClientRectangle.Height / 2 - textSize.Height / 2);
+                }
             }
             base.OnPaint(e);
         }
         protected override void OnResize(EventArgs e)
         {
-            if ( StatusBar != null )
-            {
-                StatusBar.Location = new Point(this.Location.X, this.Location.Y + Height - 1 );
-                StatusBar.Width = Width;
-            }
             base.OnResize(e);
         }
         protected override void OnMeasureItem(MeasureItemEventArgs e)
@@ -245,7 +343,7 @@ namespace M3Controls
         }
         protected override void OnMouseClick(MouseEventArgs e)
         {
-            if (_handleIconClick)
+            if (_handleIconClick && e.Button == MouseButtons.Left)
             {
                 int index = IndexFromPoint(e.Location);
                 if (Items.Count == 0 || index < 0) { return; }
@@ -303,7 +401,12 @@ namespace M3Controls
             }
             base.OnMouseMove(e);
         }
-        
+
+        protected override void OnGiveFeedback(GiveFeedbackEventArgs gfbevent)
+        {
+            base.OnGiveFeedback(gfbevent);
+        }
+
         private void OnIconClicked(ListBoxItem item, int iconIndex, Rectangle rect)
         {
             var handler = IconClicked;
@@ -314,5 +417,9 @@ namespace M3Controls
             }
         }
 
+        private SolidBrush InvertColor(SolidBrush brush)
+        {
+            return new SolidBrush(Color.FromArgb(brush.Color.ToArgb() ^ 0xffffff));
+        }
     }
 }

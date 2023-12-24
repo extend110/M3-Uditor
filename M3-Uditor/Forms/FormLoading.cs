@@ -51,7 +51,6 @@ namespace M3_Uditor.Forms
 
             if ( Playlist != null)
             {
-                Playlist.HasChanges = false;
                 DialogResult = DialogResult.OK;
             } else
             {
@@ -73,19 +72,22 @@ namespace M3_Uditor.Forms
 
         private void FormLoading_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if (_mode == Mode.Import)
+            if (e.CloseReason == CloseReason.UserClosing)
             {
-                M3U8Parser.AbortLoading = true;
-                M3U8Parser.LoadingProgressChanged -= M3U8Parser_ProgressChanged;
+                if (_mode == Mode.Import)
+                {
+                    M3U8Parser.AbortLoading = true;
+                    M3U8Parser.LoadingProgressChanged -= M3U8Parser_ProgressChanged;
+                }
+
+                if (_mode == Mode.Open)
+                {
+                    Playlist.AbortLoading = true;
+                }
             }
 
-            if (_mode == Mode.Open)
-            {
-                Playlist.AbortLoading = true;
-            }
-
-            if ( _workingThread.ThreadState == ThreadState.Running )
-                _workingThread.Abort();
+            //if ( _workingThread.ThreadState == ThreadState.Running )
+            //    _workingThread.Abort();
         }
 
         private void FormLoading_Load(object sender, EventArgs e)

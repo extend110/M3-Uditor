@@ -31,44 +31,32 @@ namespace M3_Uditor.Forms
         private void InitializeComponent()
         {
             this.backgroundWorker = new System.ComponentModel.BackgroundWorker();
-            this.headerText1 = new M3Controls.HeaderText();
             this.mProgressBar1 = new M3Controls.MProgressBar();
             this.headerTextLoading = new M3Controls.HeaderText();
             this.SuspendLayout();
             // 
-            // headerText1
-            // 
-            this.headerText1.Animate = false;
-            this.headerText1.BottomLineHeight = 1;
-            this.headerText1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.headerText1.GradientColor = System.Drawing.Color.RoyalBlue;
-            this.headerText1.Location = new System.Drawing.Point(0, 79);
-            this.headerText1.Name = "headerText1";
-            this.headerText1.Size = new System.Drawing.Size(420, 23);
-            this.headerText1.TabIndex = 29;
-            // 
             // mProgressBar1
             // 
             this.mProgressBar1.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.mProgressBar1.BarColorCenter = System.Drawing.Color.RoyalBlue;
-            this.mProgressBar1.BarColorOutside = System.Drawing.Color.Black;
             this.mProgressBar1.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.mProgressBar1.Location = new System.Drawing.Point(12, 119);
+            this.mProgressBar1.Location = new System.Drawing.Point(12, 92);
             this.mProgressBar1.Name = "mProgressBar1";
-            this.mProgressBar1.Size = new System.Drawing.Size(396, 23);
+            this.mProgressBar1.ProgressBarColor = System.Drawing.Color.RoyalBlue;
+            this.mProgressBar1.ProgressBarFont = new System.Drawing.Font("Segoe UI", 8F);
+            this.mProgressBar1.Size = new System.Drawing.Size(396, 32);
             this.mProgressBar1.TabIndex = 28;
             this.mProgressBar1.Text = "mProgressBar1";
             // 
             // headerTextLoading
             // 
             this.headerTextLoading.Animate = true;
-            this.headerTextLoading.BottomLineHeight = 2;
+            this.headerTextLoading.BottomLineHeight = 1;
             this.headerTextLoading.Dock = System.Windows.Forms.DockStyle.Top;
-            this.headerTextLoading.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.headerTextLoading.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.headerTextLoading.ForeColor = System.Drawing.Color.White;
             this.headerTextLoading.GradientColor = System.Drawing.Color.RoyalBlue;
             this.headerTextLoading.Location = new System.Drawing.Point(0, 0);
-            this.headerTextLoading.Margin = new System.Windows.Forms.Padding(10, 3, 3, 3);
+            this.headerTextLoading.Margin = new System.Windows.Forms.Padding(6, 3, 3, 3);
             this.headerTextLoading.Name = "headerTextLoading";
             this.headerTextLoading.Size = new System.Drawing.Size(420, 79);
             this.headerTextLoading.TabIndex = 27;
@@ -78,10 +66,11 @@ namespace M3_Uditor.Forms
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(420, 154);
-            this.Controls.Add(this.headerText1);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(420, 136);
             this.Controls.Add(this.mProgressBar1);
             this.Controls.Add(this.headerTextLoading);
+            this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.KeyPreview = true;
             this.MaximizeBox = false;
@@ -101,6 +90,5 @@ namespace M3_Uditor.Forms
         private System.ComponentModel.BackgroundWorker backgroundWorker;
         private M3Controls.HeaderText headerTextLoading;
         private M3Controls.MProgressBar mProgressBar1;
-        private M3Controls.HeaderText headerText1;
     }
 }

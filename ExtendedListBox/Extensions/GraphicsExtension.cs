@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace M3Controls.ExtensionMethods
+namespace M3Controls.Extensions
 {
     public static class GraphicsExtension
     {
@@ -67,5 +67,14 @@ namespace M3Controls.ExtensionMethods
             }
         }
 
+        public static Color Lerp(this Color s, Color t, float k)
+        {
+            var bk = (1 - k);
+            var a = s.A * bk + t.A * k;
+            var r = s.R * bk + t.R * k;
+            var g = s.G * bk + t.G * k;
+            var b = s.B * bk + t.B * k;
+            return Color.FromArgb((int)a, (int)r, (int)g, (int)b);
+        }
     }
 }

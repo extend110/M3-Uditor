@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Drawing;
+using System.IO.IsolatedStorage;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,20 +12,26 @@ namespace M3Controls
 {
     public partial class MTextBox : UserControl
     {
+        public event EventHandler ButtonClicked;
+
         private TextBox textBox1;
 
         private void InitializeComponent()
         {
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.buttonClear = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
             // 
+            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(7, 7);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(236, 15);
+            this.textBox1.Size = new System.Drawing.Size(211, 15);
             this.textBox1.TabIndex = 0;
             this.textBox1.Click += new System.EventHandler(this.textBox1_Click);
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
@@ -35,10 +42,26 @@ namespace M3Controls
             this.textBox1.MouseEnter += new System.EventHandler(this.textBox1_MouseEnter);
             this.textBox1.MouseLeave += new System.EventHandler(this.textBox1_MouseLeave);
             // 
+            // buttonClear
+            // 
+            this.buttonClear.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonClear.BackgroundImage = global::M3Controls.Properties.Resources.RemoveButton;
+            this.buttonClear.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.buttonClear.FlatAppearance.BorderSize = 0;
+            this.buttonClear.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.buttonClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonClear.Location = new System.Drawing.Point(224, 7);
+            this.buttonClear.Name = "buttonClear";
+            this.buttonClear.Size = new System.Drawing.Size(19, 16);
+            this.buttonClear.TabIndex = 1;
+            this.buttonClear.UseVisualStyleBackColor = true;
+            this.buttonClear.Click += new System.EventHandler(this.buttonClear_Click);
+            // 
             // MTextBox
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.SystemColors.Window;
+            this.Controls.Add(this.buttonClear);
             this.Controls.Add(this.textBox1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.DimGray;
@@ -51,6 +74,8 @@ namespace M3Controls
 
         }
 
+        private string _text;
+
         private Color borderColor = Color.MediumSlateBlue;
         private int borderSize = 2;
         private bool underlinedStyle = false;
@@ -61,9 +86,14 @@ namespace M3Controls
         private string placeHolder = "";
         private Font placeholderFont;
 
-        private bool showIcon = false;
+        private Button buttonClear;
         private Image icon;
 
+        private bool clearButton;
+        private Style borderStyle;
+        private Color backgroundColor;
+
+        private string textContent = string.Empty;
         //Constructor
         public MTextBox()
         {
@@ -74,6 +104,24 @@ namespace M3Controls
         public event EventHandler _TextChanged;
 
         //Properties
+        public enum Style
+        {
+            Normal,
+            Underline,
+            Gap
+        }
+
+        public new Style BorderStyle { get => borderStyle; set { borderStyle = value; Invalidate(); } }
+        public Color BorderColor { get; set; } = Color.RoyalBlue;
+        public Color BackgroundColor
+        {
+            get => backgroundColor; set
+            {
+                backgroundColor = value;
+                textBox1.BackColor = value;
+                Invalidate();
+            }
+        }
         [Category("M3 - Controls")]
         public new string Name
         {
@@ -82,21 +130,14 @@ namespace M3Controls
         }
 
         [Category("M3 - Controls")]
+        [EditorBrowsable(EditorBrowsableState.Always)]
+        [Browsable(true)]
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
+        [Bindable(true)]
         public override string Text 
         { 
             get { return textBox1.Text; }
             set { textBox1.Text = value; }
-        }
-
-        [Category("M3 - Controls")]
-        public Color BorderColor
-        {
-            get { return borderColor; }
-            set
-            {
-                borderColor = value;
-                this.Invalidate();
-            }
         }
 
         [Category("M3 - Controls")]
@@ -106,17 +147,6 @@ namespace M3Controls
             set
             {
                 borderSize = value;
-                this.Invalidate();
-            }
-        }
-
-        [Category("M3 - Controls")]
-        public bool UnderlinedStyle
-        {
-            get { return underlinedStyle; }
-            set
-            {
-                underlinedStyle = value;
                 this.Invalidate();
             }
         }
@@ -133,17 +163,6 @@ namespace M3Controls
         {
             get { return textBox1.Multiline; }
             set { textBox1.Multiline = value; }
-        }
-
-        [Category("M3 - Controls")]
-        public override Color BackColor
-        {
-            get { return base.BackColor; }
-            set
-            {
-                base.BackColor = value;
-                textBox1.BackColor = value;
-            }
         }
 
         [Category("M3 - Controls")]
@@ -175,7 +194,7 @@ namespace M3Controls
         public Color BorderFocusColor
         {
             get { return borderFocusColor; }
-            set { borderFocusColor = value; }
+            set { borderFocusColor = value; Invalidate(); }
         }
 
         [Category("M3 - Controls")]
@@ -201,24 +220,15 @@ namespace M3Controls
         }
 
         [Category("M3 - Controls")]
-        public bool ShowIcon
-        {
-            get { return showIcon; }
-            set
-            {
-                showIcon = value;
-                UpdateControlWidth();
-                this.Invalidate();
-            }
-        }
-
-        [Category("M3 - Controls")]
         public bool ReadOnly
         {
             get { return textBox1.ReadOnly; }
             set
             {
                 textBox1.ReadOnly = value;
+                textBox1.BackColor = Color.Black;
+                textBox1.ForeColor = this.ForeColor;
+                textBox1.BackColor = BackColor;
                 this.Invalidate();
             }
         }
@@ -241,36 +251,52 @@ namespace M3Controls
             }
         }
 
+        public Image Image { get => buttonClear.BackgroundImage; set { buttonClear.BackgroundImage = value; } }
+        public bool ClearButton { get => clearButton; set { clearButton = value; buttonClear.Visible = value; OnResize(null); } }
+        public AutoCompleteStringCollection AutoCompleteDataSource { get => textBox1.AutoCompleteCustomSource; set { textBox1.AutoCompleteCustomSource = value; } }
+        public AutoCompleteMode AutoCompleteMode { get => textBox1.AutoCompleteMode; set { textBox1.AutoCompleteMode = value; } }
+
         //Overridden methods
 
         protected override void OnPaint(PaintEventArgs e)
         {
-            Graphics graph = e.Graphics;
             base.OnPaint(e);
 
-            //Draw border
-            using (Pen penBorder = new Pen(borderColor, borderSize))
-            {
-                penBorder.Alignment = System.Drawing.Drawing2D.PenAlignment.Inset;
-                if (isFocused) penBorder.Color = borderFocusColor;
+            Rectangle bounds = new Rectangle(0, 0, Width - 1, Height - 1);
 
-                if (underlinedStyle) //Line Style
-                    graph.DrawLine(penBorder, 0, this.Height - 1, this.Width, this.Height - 1);
-                else //Normal Style
-                    graph.DrawRectangle(penBorder, 0, 0, this.Width - 0.5F, this.Height - 0.5F);
-            }
-
-            if ( showIcon && icon != null )
+            using (SolidBrush backColor = new SolidBrush(backgroundColor))
+            using (Pen borderPen = isFocused == true ? new Pen(BorderFocusColor, 1) : new Pen(BorderColor, 1))
             {
-                graph.DrawImage(icon, this.Width - this.Height + 8, (0 + this.Height / 1.5f) - this.Height / 2, this.Height / 1.5f, this.Height / 1.5f);
+                e.Graphics.FillRectangle(backColor, ClientRectangle);
+
+                switch (BorderStyle)
+                {
+                    case Style.Normal:
+                        e.Graphics.DrawRectangle(borderPen, bounds);
+                        break;
+                    case Style.Underline:
+                        e.Graphics.DrawRectangle(borderPen, 0, Height - 1, Width, 1);
+                        break;
+                    case Style.Gap:
+                        e.Graphics.DrawRectangle(borderPen, bounds);
+                        e.Graphics.FillRectangle(backColor, 0, Height / 2 - textBox1.Height / 2, Width, textBox1.Height);
+                        break;
+                }
+
             }
         }
 
         protected override void OnResize(EventArgs e)
         {
             base.OnResize(e);
-            if (this.DesignMode)
-                UpdateControlHeight();
+            UpdateControlHeight();
+
+            textBox1.Width = this.Width - Padding.Left - Padding.Right;
+
+            buttonClear.Left = this.Width - buttonClear.Width - this.Padding.Right;
+
+            if (clearButton)
+                textBox1.Width -= buttonClear.Width;
 
             this.Invalidate();
         }
@@ -298,23 +324,12 @@ namespace M3Controls
                 textBox1.Multiline = false;
 
                 this.Height = textBox1.Height + this.Padding.Top + this.Padding.Bottom;
-            }
-        }
-
-        private void UpdateControlWidth()
-        {
-            if ( textBox1.Multiline == false )
+            } else
             {
-                if ( showIcon )
-                {
-                    textBox1.Dock = DockStyle.None;
-                    textBox1.Size = new Size(textBox1.Width - 40, this.Height);
-                } else
-                {
-                    textBox1.Dock = DockStyle.Fill;
-                    textBox1.Size = new Size(this.Width, this.Height);
-                }
+                textBox1.Height = this.Height - this.Padding.Top - this.Padding.Bottom;
             }
+            
+            buttonClear.Size = new Size(19, textBox1.Height);
         }
 
         //TextBox events
@@ -346,21 +361,27 @@ namespace M3Controls
 
         private void textBox1_Enter(object sender, EventArgs e)
         {
-            if (textBox1.Text == placeHolder)
+            if (textBox1.Text == placeHolder && showPlaceholder)
             {
                 textBox1.Font = Font;
                 textBox1.Text = string.Empty;
             }
+
+            textContent = textBox1.Text;
             isFocused = true;
             this.Invalidate();
         }
 
         private void textBox1_Leave(object sender, EventArgs e)
         {
-            if ( textBox1.Text == string.Empty )
+            if ( textBox1.Text == string.Empty && showPlaceholder )
             {
                 textBox1.Font = placeholderFont;
                 textBox1.Text = placeHolder;
+            }
+            else if(textBox1.Text == string.Empty && textContent != string.Empty)
+            {
+                textBox1.Text = textContent;
             }
             isFocused = false;
             this.Invalidate();
@@ -369,6 +390,30 @@ namespace M3Controls
         private void textBox1_KeyDown(object sender, KeyEventArgs e)
         {
             this.OnKeyDown(e);
+        }
+
+        protected override void OnSizeChanged(EventArgs e)
+        {
+            base.OnSizeChanged(e);
+            //textBox1.Dock = DockStyle.Left;
+            if (clearButton)
+            {
+                textBox1.Width = this.Width - buttonClear.Width - Margin.Right;
+            }
+            else
+            {
+                //textBox1.Width = this.Width - Padding.Right;
+            }
+        }
+
+        private void buttonClear_Click(object sender, EventArgs e)
+        {
+            ButtonClicked?.Invoke(this, e);
+        }
+        public void Clear()
+        {
+            textBox1.Clear();
+            textBox1.Focus();
         }
     }
 }

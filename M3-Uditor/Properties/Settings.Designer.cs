@@ -105,5 +105,29 @@ namespace M3_Uditor.Properties {
                 this["ExportInactiveStreams"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool ShowStartDialog {
+            get {
+                return ((bool)(this["ShowStartDialog"]));
+            }
+            set {
+                this["ShowStartDialog"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool RemoveCountryTag {
+            get {
+                return ((bool)(this["RemoveCountryTag"]));
+            }
+            set {
+                this["RemoveCountryTag"] = value;
+            }
+        }
     }
 }

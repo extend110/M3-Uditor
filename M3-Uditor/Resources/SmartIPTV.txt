@@ -1,0 +1,1603 @@
+﻿#dabeiTV;#dabeiTV.de;3
+1-2-3.tv HD;123.tv.de;3351
+13th Street;13thStreet.de;148343
+3+;3plus.ch;9817
+3sat;3sat.de;134767
+4+ HD;4plus.ch;1182
+5+ HD;5plus.ch;798
+6+ HD;6plus.ch;340
+Allgäu TV;AllgauTV.de;997
+Animal Planet;AnimalPlanet.de;50795
+ANIXE SD;Anixe.de;2305
+ANIXE Serie HD;AnixeSerie.de;7029
+ARCADIA World HD;ARCADIAWorld.at;3470
+ard-alpha;ARD-alpha.de;41910
+ARTE;ARTE.de;107544
+AstroTV;AstroTV.de;133
+ATV;ATV.de;121309
+ATV2;ATV2.at;27293
+Auftanken TV;AuftankenTV.ch;8
+Augsburg TV (a.tv);a.tv.de;295
+Auto Motor Sport Ch.;AutoMotorSport.de;1945
+AXN;AXN.de;13380
+BabyTV;BabyTV.de;631
+Ballermann TV;BallermannTV.de;254
+BBC Entertainment;BBCEntertainment.de;5
+beIN Gurme;beINGurme.tr;3691
+beIN Movies Turk;beINMoviesTurk.tr;2543
+Bibel TV;BibelTV.de;7855
+BILD HD;BILD.de;4288
+blue Action;blueAction.ch;177
+blue Sport 1;blueSport1.ch;979
+blue Sport 10;blueSport10.ch;23
+blue Sport 11;blueSport11.ch;4
+blue Sport 12;blueSport12.ch;2
+blue Sport 13;blueSport13.ch;2
+blue Sport 14;blueSport14.ch;6
+blue Sport 15;blueSport15.ch;3
+blue Sport 16;blueSport16.ch;3
+blue Sport 17;blueSport17.ch;5
+blue Sport 18;blueSport18.ch;0
+blue Sport 19;blueSport19.ch;0
+blue Sport 2;blueSport2.ch;2982
+blue Sport 20;blueSport20.ch;0
+blue Sport 21;blueSport21.ch;0
+blue Sport 22;blueSport22.ch;0
+blue Sport 23;blueSport23.ch;0
+blue Sport 24;blueSport24.ch;0
+blue Sport 25;blueSport25.ch;0
+blue Sport 26;blueSport26.ch;0
+blue Sport 27;blueSport27.ch;0
+blue Sport 28;blueSport28.ch;0
+blue Sport 29;blueSport29.ch;0
+blue Sport 3;blueSport3.ch;41
+blue Sport 30;blueSport30.ch;0
+blue Sport 31;blueSport31.ch;0
+blue Sport 32;blueSport32.ch;0
+blue Sport 33;blueSport33.ch;0
+blue Sport 34;blueSport34.ch;0
+blue Sport 35;blueSport35.ch;0
+blue Sport 36;blueSport36.ch;0
+blue Sport 37;blueSport37.ch;0
+blue Sport 38;blueSport38.ch;0
+blue Sport 39;blueSport39.ch;0
+blue Sport 4;blueSport4.ch;42
+blue Sport 40;blueSport40.ch;0
+blue Sport 41;blueSport41.ch;0
+blue Sport 5;blueSport5.ch;28
+blue Sport 6;blueSport6.ch;24
+blue Sport 7;blueSport7.ch;25
+blue Sport 8;blueSport8.ch;22
+blue Sport 9;blueSport9.ch;21
+blue Sport Event 1;blueSportEvent1.ch;58
+blue Sport Event 2;blueSportEvent2.ch;37
+blue Sport Event 3;blueSportEvent3.ch;6
+blue Sports 1 UHD;blueSports1UHD.ch;2
+blue Sports 2 UHD;blueSports2UHD.ch;4
+blue Sports 3 UHD;blueSports3UHD.ch;0
+blue Sports 4 UHD;blueSports4UHD.ch;0
+blue Stars;blueStar.ch;80
+blue Stars;blueStars.ch;249
+blue Zoom D;blueZoomD.ch;176
+blue Zoom F;blueZoomF.ch;165
+Bon Gusto HDTV (Germany);BonGusto.de;6843
+Boomerang;Boomerang.de;26192
+BR Fernsehen Süd;BRFernsehen.de;2212
+Canal Alpha JU;CanalAlphaJU.ch;33
+Canal Alpha NE;CanalAlphaNE.ch;36
+CANALPLUS FIRST;Canal+First.at;138
+Cartoon Network;CartoonNetwork.de;35703
+Channel21;Channel21.de;2311
+Comedy Central VIVA;ComedyCentralVIVA.at;1953
+Comedy HD/VIVA HD;ComedyVIVA.ch;217
+Craction TV;CractionTV.de;359
+Crime Investigation HD;CrimeInvestigation.de;5337
+Curiosity Channel;CuriosityChannel.de;525
+Das Erste;DasErste.de;323170
+DAZN 1 HD;DAZN1.de;264148
+DAZN 2 HD;DAZN2.de;162243
+DELUXE MUSIC;DeLuxeMusic.de;22165
+deutsches-musik-fernsehen;DeutschesMusikFernsehen.de;3716
+DIE NEUE ZEIT TV;DieNeueZeitTV.de;422
+Discovery Channel;DiscoveryChannel.de;60133
+Discovery Channel D;DiscoveryChannel.ch;0
+Discovery HD;DiscoveryHD.de;39724
+Disney Channel;disneychannel.de;67858
+Disney Junior;DisneyJunior.de;21257
+DMAX;DMAX.ch;2440
+DMAX;DMax.de;121927
+Doxx;Doxx.de;425
+Duck TV;DuckTV.day;1355
+E! Entertainm.;EEntertainment.de;12347
+Edge Sport;EdgeSport.de;236
+eoTV;eoTV.de;10
+eSports1;eSports1.de;1875
+Euro D;EuroD.tr;22919
+Eurosport 1 HD;Eurosport1.at;43
+Eurosport 2 HD Xtra;Eurosport2Xtra.de;4522
+Eurosport1;Eurosport1.de;132978
+Eurosport2;Eurosport2.de;45541
+Eurosport360HD 1;Eurosport360HD1.de;163
+Eurosport360HD 2;Eurosport360HD2.de;79
+Eurosport360HD 3;Eurosport360HD3.de;74
+Eurosport360HD 4;Eurosport360HD4.de;65
+Eurosport360HD 5;Eurosport360HD5.de;56
+Eurosport360HD 6;Eurosport360HD6.de;46
+Eurosport360HD 7;Eurosport360HD7.de;43
+Eurosport360HD 8;Eurosport360HD8.de;44
+Eurosport360HD 9;Eurosport360HD9.de;126
+EuroStar;EuroStar.tr;16818
+EWTN;EWTN.de;789
+Extreme Sports Chl;ExtremeSports.de;186
+Family TV;FamilyTV.de;110
+FC BAYERN.TV LIVE;FCBAYERN.TVLIVE;55
+Fix&Foxi;FixFoxi.de;3556
+Folx.TV;FolxTV.de;834
+FOX;Fox.de;27619
+Franken TV;FrankenTV.de;113
+FUSSBALL.TV 1 FIFA WM 2022;FUSSBALL.TV1FIFAWM2022;1
+FUSSBALL.TV 2 FIFA WM 2022;FUSSBALL.TV2FIFAWM2022;2
+FUSSBALL.TV 3 FIFA WM 2022;FUSSBALL.TV3FIFAWM2022;1
+GEO;GEO.de;341
+GEO TV HD;GeoTV.de;3357
+Goldstar TV;GoldstarTV.de;1817
+gotv;go.tv;189
+Gute Laune TV;GuteLauneTV.de;90
+Handystar;Handystar.de;165
+Health;Health.de;48
+Heimatkanal;Heimatkanal.de;30716
+Helvetia One TV;HelvetiaOneTV.ch;5
+HGTV;HGTV.de;12081
+HH 1;Hamburg1.de;197
+History HD;History.de;27714
+History HD;HistoryHD.de;56700
+Hitradio OE3;HitradioOE3.at;148
+HOPE Channel (Deutschland);HopeChannel.de;24
+hr-fernsehen;HRFernsehen.de;1926
+HSE Trend;HSETrend.de;212
+HSE24;HSE24.de;3434
+HSE24 Extra;HSE24Extra.de;995
+Joiz HD;Joiz.ch;0
+Jukebox;Jukebox.de;4575
+Junior;Junior.de;10998
+Juwelo;JuweloTV.de;597
+K-TV;KTV.de;2273
+Kabel 1 Austria;Kabel1.at;1792
+Kabel eins;Kabel1.ch;24
+kabel eins;KabelEins.de;27059
+kabel eins class;KabelEinsClassic.de;56496
+kabel eins Doku;KabelEinsDoku.de;42003
+Kanal 7 Avrupa;Kanal7.tr;508241
+Kanal 9;Kanal9.ch;28
+KAZAKH TV;KazakhTV.de;1
+KIKA;Kika.de;47051
+Kinomir;Kinomir.ru;0
+KinoweltTV;Kinowelt.de;64689
+krone.tv HD;krone.tv.at;7926
+Ländle TV HD;LandleTV.at;31
+LT1;LT1.at;3
+Lust Pur;LustPur.de;5933
+Magenta Musik 1;MagentaMusik1.de;99
+Magenta Musik 2;MagentaMusik2.de;84
+MagentaSport;MagentaSport;489
+Marco Polo TV;MarcoPoloTV.de;905
+MDR S-Anhalt;MDRS-Anhalt.de;3980
+Melodie TV;MelodieTV.at;1531
+More than Sports TV;MorethanSportsTV.de;501
+Motorvision;MotorVision.de;16762
+MTV;MTV.ch;3449
+MTV;MTVGermany.de;18906
+MTV Base;MTVBase.de;17
+München TV;MunchenTV.de;2678
+musig24;musig24.ch;0
+MySports 1 D;MYSPORTS1D.ch;52
+MySports 2 D;MYSPORTS2D.ch;26
+MySports 3 D;MYSPORTS3D.ch;21
+MySports 4 D;MYSPORTS4D.ch;36
+MySports 5 D;MYSPORTS5D.ch;29
+MySports 6 D;MYSPORTS6D.ch;13
+MySports 7 D;MYSPORTS7D.ch;50
+MySports 8 D;MYSPORTS8D.ch;40
+MySports 9 D;MYSPORTS9D.ch;19
+MySports One D;MYSPORTSD.ch;69
+n-tv;ntv.de;175278
+N24 Doku;N24Doku.de;36043
+Nat Geo Wild;NatGeoWild.de;86056
+Nat Geographic HD;NatGeoHD.de;73646
+NDR Fernsehen NDS;NDRFernsehen.de;3654
+Nick;Nick_7+.ch;100
+Nick - MTV+;Nick_MTV+.de;17
+Nick Jr.;NickJr.de;18771
+Nickelodeon;Nickelodeon.de;29228
+Nickelodeon AT;Nickelodeon.at;205
+NickToons;Nicktoons.de;10528
+Niederbayern TV;niederbayerntv.de;62
+NOW US;NowUS.de;377
+NTV;ntv.at;4401
+Oberpfalz TV;OberpfalzTV.de;530
+OE24TV;OE24TV.at;942
+OKTO;OKTO.at;116
+One;One.de;29552
+One Music Television;OneMusicTelevision.de;6711
+ORF 2;ORF2.at;31007
+ORF 2 Europe;ORF2europe.at;64
+ORF eins;ORF1.at;43840
+ORF III;ORF3.at;18362
+ORF Sport+;ORFSport.at;7753
+OstWest;OstWest.ru;41
+Passion;RTLPassion.de;129710
+Pearl.tv HD;Pearl.tv.de;777
+phoenix;phoenix.de;51733
+Pro7 Switzerland;Pro7.ch;12361
+ProSieben;Pro7.at;2834
+ProSieben;ProSieben.de;115298
+ProSieben Fun;ProSiebenFun.de;63431
+ProSieben Maxx;ProSiebenMaxx.de;180308
+PULS 4;Puls4.at;17433
+Puls 8 HD;Puls8.ch;19580
+PULS24;Puls24.at;566
+QVC;QVC.de;8499
+QVC Plus;QVCPlus.de;193
+QVC Style;QVCStyle.de;263
+R9 Österreich HD;R9Osterreich.at;149
+Radio Bremen TV;RadioBremen.de;924
+rbb Berlin;rbbBerlin.de;39167
+Regionalfernsehen Oberbayern (RFO);Oberbayern.de;37
+Rhein-Neckar Fernsehen;RheinNeckarFernsehen.de;362
+rheinmaintv;rheinmaintv.de;206
+RiC;RiC.de;668
+RMC Sport Access 1;TCRMCSportAccess1.ch;0
+Romance TV;Romance.de;75797
+RSI La 1;RSILa1.ch;25631
+RSI La 2;RSILa2.ch;17800
+RTL;RTL.de;643386
+RTL;RTL.ch;2311
+RTL 9;RTL9.ch;8
+RTL Crime;RTLCrime.de;123449
+RTL II;RTL2.de;434361
+RTL Living;RTLLiving.de;110725
+RTL Nitro;RTLNitro.de;98912
+RTL Plus;RTLPlus.de;21914
+RTL UHD;RTLUHD.de;10788
+RTL ZWEI;RTL2.ch;879
+RTL+ LIVE 1;RTL+1.de;476
+RTL+ LIVE 2;RTL+2.de;456
+RTL+ LIVE 3;RTL+3.de;266
+RTL+ LIVE 4;RTL+4.de;184
+RTL+ LIVE 5;RTL+5.de;110
+RTL+ LIVE 6;RTL+6.de;283
+RTR Planeta;RTRPlaneta.ru;1039
+RTS Deux;RTSDeux.ch;21522
+RTS Un;RTSUn.ch;29110
+S1 HD;S1.ch;173
+Sat.1;Sat1.de;275025
+Sat.1 AT;Sat1.at;2586
+Sat1 Emotions;Sat1Comedy.de;52481
+Sat1 Gold;Sat1Gold.de;65302
+Sat1 Switzerland;Sat1.ch;1806
+SCHAU TV;SchauTV.at;182
+Schlager Deluxe;SchlagerDeluxe.de;979
+Schlagerparadies.TV;SchlagerparadiesTV.de;174
+Schweiz 5;SCHWEIZ5.ch;8
+Servus TV;ServusTV.at;12360
+ServusTV;ServusHD.de;27384
+Show Türk;ShowTurk.tr;37980
+SILVERLINE;Silverline.de;21806
+sixx;Sixx.de;124940
+Sixx Austria;SixxAustria.at;3521
+Sky 1;Sky1.de;16427
+Sky Action;SkyAction.de;98119
+Sky Atlantic HD;SkyAtlanticHD.de;62698
+Sky Atlantic HD +1;SkyAtlanticPlus1.de;1181
+Sky Cinema;SkyCinema.de;32658
+Sky Cinema +1;SkyCinemaPlus1.de;9624
+Sky Cinema +24;SkyCinemaPlus24.de;50317
+Sky Cinema Best Of HD;SkyCinemaBestOf.de;38438
+Sky Cinema Classics;SkyCinemaClassics.de;20977
+Sky Cinema Family;SkyCinemaFamily.de;132491
+Sky Cinema Fun;SkyCinemaFun.de;31112
+Sky Cinema Hits;SkyCinemaHits.de;23091
+Sky Cinema Premieren;SkyPremieren.de;42772
+Sky Cinema Premieren;bluePrime.ch;1206
+Sky Cinema Special HD;SkyCinemaSpecial.de;48170
+Sky Cinema Thriller HD;SkyCinemaThriller.de;45071
+Sky Comedy;SkyComedy.de;51786
+Sky Crime HD;SkyCrime.de;18200
+Sky Documentaries HD;SkyDocumentaries.de;13309
+Sky Fußball Bundesliga 1;SkyBundesliga1.de;53627
+Sky Krimi;SkyKrimi.de;59080
+Sky Nature HD;SkyNature.de;7213
+Sky Replay HD;SkyReplay.de;8591
+Sky Select;SkySelect.de;24681
+Sky Serien and Shows HD;SkySerienShows.de;254
+Sky Showcase HD;SkyShowcase.de;7447
+Sky Sport 1 HD;SkySport1.de;61472
+Sky Sport 2 HD;SkySport2.de;18674
+Sky Sport Austria;SkySportAustria.de;66223
+Sky Sport Austria 2;SkySportAustria2.at;11918
+Sky Sport Austria 3;SkySportAustria3.at;7093
+Sky Sport Austria 4;SkySportAustria4.at;7215
+Sky Sport Austria 5 HD;SkySportAustria5.at;4816
+Sky Sport Austria 6 HD;SkySportAustria6.at;3387
+Sky Sport Austria 7 HD;SkySportAustria7.at;3629
+Sky Sport Bundesliga;SkySportBundesliga.de;21713
+Sky Sport Bundesliga 10 HD;SkyBundesliga10.de;10846
+Sky Sport Bundesliga 2 HD;SkyBundesliga2.de;119825
+Sky Sport Bundesliga 3 HD;SkyBundesliga3.de;36356
+Sky Sport Bundesliga 4 HD;SkyBundesliga4.de;42748
+Sky Sport Bundesliga 5 HD;SkyBundesliga5.de;26276
+Sky Sport Bundesliga 6 HD;SkyBundesliga6.de;9335
+Sky Sport Bundesliga 7 HD;SkyBundesliga7.de;6483
+Sky Sport Bundesliga 8 HD;SkyBundesliga8.de;5922
+Sky Sport Bundesliga 9 HD;SkyBundesliga9.de;5681
+Sky Sport Bundesliga UHD;SkySportBundesligaUHD.de;1878
+Sky Sport CH 1;SkySportCH1;0
+Sky Sport CH 2;SkySportCH2;0
+Sky Sport F1 HD;SkySportF1.de;40071
+Sky Sport Golf HD;SkySportGolf.de;1798
+Sky Sport News HD;SkySportNewsHD.de;86066
+Sky Sport Premier League HD;SkySportPremierLeague.de;3502
+Sky Sport Serie A 1;SkySportSerieA1;97
+Sky Sport Serie A 2;SkySportSerieA2;149
+Sky Sport Serie A 3;SkySportSerieA3;7
+Sky Sport Serie A 4;SkySportSerieA4;5
+Sky Sport Serie A 5;SkySportSerieA5;6
+Sky Sport Tennis;SkySportTennis.de;4607
+Sky Sport Top Event;SkySportTopEvent.de;10784
+Sky Sport UHD;SkySportUHD.de;4870
+SkySport Mix HD;SkySportMix.de;2735
+SkySport10 HD;SkySport10.de;2745
+SkySport11 HD;SkySport11.de;279
+SkySport3 HD;SkySport3.de;18647
+SkySport4 HD;SkySport4.de;8003
+SkySport5 HD;SkySport5.de;17562
+SkySport6 HD;SkySport6.de;6203
+SkySport7 HD;SkySport7.de;5913
+SkySport8 HD;SkySport8.de;3559
+SkySport9 HD;SkySport9.de;3941
+sonnenklar.TV;SonnenKlar.de;2870
+Sony Entertainment TV;SonyEntertainmentTV.de;5394
+Spiegel Geschichte;SpiegelGeschichte.de;48330
+Sport 1 - myTeamTV;Sport1-myTeamTV;95
+Sport 10 - myTeamTV;Sport10-myTeamTV;32
+Sport 11 - myTeamTV;Sport11-myTeamTV;29
+Sport 12 - myTeamTV;Sport12-myTeamTV;30
+Sport 13 - myTeamTV;Sport13-myTeamTV;26
+Sport 14 - myTeamTV;Sport14-myTeamTV;26
+Sport 15 - myTeamTV;Sport15-myTeamTV;27
+Sport 16 - myTeamTV;Sport16-myTeamTV;29
+Sport 17 - myTeamTV;Sport17-myTeamTV;47
+Sport 18 - myTeamTV;Sport18-myTeamTV;45
+Sport 2 - myTeamTV;Sport2-myTeamTV;64
+Sport 3 - myTeamTV;Sport3-myTeamTV;60
+Sport 4 - myTeamTV;Sport4-myTeamTV;42
+Sport 5 - myTeamTV;Sport5-myTeamTV;44
+Sport 6 - myTeamTV;Sport6-myTeamTV;35
+Sport 7 - myTeamTV;Sport7-myTeamTV;39
+Sport 8 - myTeamTV;Sport8-myTeamTV;34
+Sport 9 - myTeamTV;Sport9-myTeamTV;47
+Sport Digital;SportDigital;1
+Sport Free - myTeamTV;SportFree-myTeamTV;0
+SPORT1;Sport1HD.de;46735
+SPORT1+;SPORT1plus.de;18188
+sportdigital;sportdigital.de;30806
+SR Fernsehen;SRFernsehen.de;2269
+SRF 1;SRF1.ch;13606
+SRF info HD;SRFinfo.ch;2521
+SRF zwei;SRF2.ch;13561
+Star TV HD;StarTV.ch;26907
+Stingray DJAZZ;StingrayDJAZZ.de;108
+Super RTL;SuperRTL.de;81034
+Swiss 1 HD;Swiss1.ch;1742
+Swiss Sport TV;SwissSportTV.ch;10
+SWR Fernsehen BW;SWRFernsehen.de;2454
+SWR Fernsehen RP;SWRFernsehen-rp.de;1179
+Syfy HD;SciFi.de;73708
+tagesschau24;tagesschau24.de;51387
+TC Action;TCAction.ch;36
+TC Cinema;TCCinema.ch;26
+TC City;TCCity.ch;0
+TC Emotion;TCEmotion.ch;7
+TC Retro;TCRetro.ch;0
+TC Sport 1;TCSport1.ch;728
+TC Sport 2;TCSport2.ch;4070
+TC Sport 3 / Sky Sport 1;TCSport3.ch;0
+TC Zoom;TCZoom.ch;6
+Tele 1;Tele1.ch;17182
+TELE 5;Tele5.at;772
+Tele 5;Tele5.de;50686
+Tele Bärn;TeleBarn.ch;45
+Tele Basel;TeleBasel.ch;245
+Tele Bielingue;TeleBielingue.ch;81
+Tele D;TeleD.ch;11
+Tele M1 HD;TeleM1.ch;290
+Tele Top;TeleTop.ch;65
+Tele Z;TeleZ.ch;39
+Teleclub Action;TeleclubAction.de;39
+Teleclub Cinema;TeleclubCinema.de;190
+Teleclub Emotion;TeleclubEmotion.de;44
+Teleclub Zoom D;TeleclubZoom.de;146
+Teleclub Zoom F;TeleclubZoomF.ch;43
+TeleZüri HD;TeleZuri.ch;472
+Tirol TV HD;TirolTV.at;290
+TLC;TLC.de;74586
+TOGGOplus;TOGGOplus.de;40798
+Trace Sport;TraceSportStars.de;9
+TV 8 int;TV8int.tr;594
+TV Ingolstadt;tvingolstadt.de;73
+TV Mainfranken;tvmainfranken.de;1275
+TV Oberfranken;tvo.de;224
+TV Südostschweiz;TVSudostschweiz.ch;3
+TV.BERLIN;TVBerlin.de;205
+TV24 HD;TV24.ch;261
+TV25 HD;TV25.ch;167
+TVA Ostbayern;TVAOstbayern.de;13
+TVO;TVO.ch;400
+UHD1;UHD1.de;2049
+Universal Channel;Universal.de;43738
+VIVA;Viva.de;452
+VIVA/COMEDY CENTRAL;ComedyCentralVIVA.de;17036
+Volksmusik.TV;VolksmusikTV.de;411
+VOX;Vox.de;331535
+VOX;VOX.ch;782
+VOXup;VOXup.de;38763
+W24;W24.at;421
+W9;W9.ch;27
+Waidwerk;Waidwerk.de;10624
+Warner Comedy;WarnerTVComedy.de;15306
+Warner Film;WarnerTVFilm.de;13577
+Warner Serie;WarnerTVSerie.de;11607
+WDR Fernsehen;WDRFernsehen.de;3811
+wedo movies;WedoMovies.de;1060
+WELT;WELT.de;24903
+Welt der wunder;WeltDerWunder.de;19131
+Wetter Fernsehen;Wetterfernsehen.de;7
+Wetter.TV;WetterTV.ch;7
+ZDF;ZDF.de;586603
+ZDFinfokanal;ZDFinfo.de;118856
+ZDFneo;ZDFneo.de;144608
+Zwei Music Television;ZweiMusicTelevision.de;618
+.black;sony-turbo;13688
+.red;set;23133
+.red HD;set-hd;2718
+.sci-fi;axn;47114
++ТВ;+tv;1
+1 TV GE;FirstChannel.ge;871
+1+1;1p1;10112
+1+1 Международный;1p1_int;2049
+1HD;1hdru;16964
+2 TV GE;2TV.ge;139
+2+2;2p2;5666
+21TV AM;21TV.am;4423
+24 (Телеканал новостей 24);news24;37048
+2х2;2x2;18451
+2х2 (+2);2x2+2;256
+2х2 (+4);2x2+4;16
+2х2 (+7);2x2+7;26
+34 канал (Днепр);34kanal;58
+36,6 TV;36-6-tv;431
+360 Новости;360-news;3207
+360°;podmoskovie;28307
+360TuneBox;360-tunebox;1172
+365 дней ТВ;365dney;7387
+49 канал (Новосибирск);49kanal;256
+4Ever Music HD;4evermusic;1989
+5 канал;5kanal;35825
+5 канал (Россия) (+6);piter+6;342
+5 канал (Россия) (+8);piter+8;2738
+7 канал (Одесса);7-kanal-od;1440
+78;78kanal;73
+7D7;7d7;543
+8 канал - Красноярский край;ya1pm;0
+8 канал (Беларусь);8channel;2874
+8 канал (Россия);8-kanal;10728
+8 канал (Украина);pro-vse;239
+9 волна;9volna;575
+A1;amedia1;18006
+A2;amedia2;28266
+Adjarasport 1;Adjarasport1.ge;0
+Adjarasport 2;Adjarasport2.ge;0
+AIVA;aiva;1554
+Ajara TV;AjaraTV.ge;344
+AMC Украина и Прибалтика;mgm-int;21706
+Amedia Hit;amedia-hit;13205
+Amedia Premium HD;amedia-hd;15052
+Ani;ani;14018
+Animal planet Europe;animal_ukr;128
+Animal Planet HD;animal-hd;21409
+Animal planet Россия;animal_rus;17302
+AR AM;AR.am;7689
+Ararat;Ararat.am;144
+Arirang;arirang-en;232
+Armcinema;Armcinema.am;2870
+Armenia TV;ArmeniaTV.am;14303
+ArmNews;ArmNews.am;2011
+ATR;atr;331
+ATV AM;ATV.am;265304
+AzTV;aztv;2839
+BabyTV;baby-tv;20832
+Bazmots TV;BazmotsTV.am;2112
+BBC;bbc;235
+BBC Entertainment;bbc-entertainment;515
+BBC World News;bbc-world;9024
+BCU Action HD;bcu-action;10828
+BCU Catastrophe HD;bcu-catastrophe;8285
+BCU Charm HD;bcu-charm;23687
+BCU Cinema HD;bcu-cinema;9727
+BCU Cinema+ HD;bcu-cinema-plus;7693
+BCU Comedy HD;bcu-comedy;9396
+BCU Cosmo HD;bcu-cosmo;6369
+BCU Criminal HD;bcu-criminal;6546
+BCU Fantastic HD;bcu-fantastic;23302
+BCU FilMystic HD;bcu-filmystic;7718
+BCU History HD;bcu-history;7675
+BCU Kids 4K;bcu-kids-4k;3656
+BCU Kids HD;bcu-kids;3477
+BCU Kids+ HD;bcu-kids-plus;2836
+BCU Kinorating HD;bcu-kinorating;6912
+BCU Little HD;bcu-little;1220
+BCU Marvel HD;bcu-marvel;7796
+BCU Multserial HD;bcu-multserial;3347
+BCU Premiere 1 HD;bcu-kinozal-prem1;8235
+BCU Premiere 2 HD;bcu-kinozal-prem2;8565
+BCU Premiere 3 HD;bcu-kinozal-prem3;7170
+BCU Premiere HD;bcu-premiere;7144
+BCU Premiere Ultra 4K;bcu-premiere-4k;5724
+BCU Premiere Ultra 4K;bcu-premiere-ultra-4k;240
+BCU Reality HD;bcu-reality;5989
+BCU Romantic HD;bcu-romantic;17149
+BCU RUSerial HD;bcu-ruserial;6081
+BCU Russian HD;bcu-russian;7503
+BCU Stars HD;bcu-stars;5050
+BCU Survival HD;bcu-survival;5580
+BCU TruMotion HD;bcu-trumotion;5864
+BCU Ultra 4K;bcu-ultra-4k;5531
+BCU VHS HD;bcu-vhs;6000
+BCU Сваты HD;bcu-svaty;6427
+BCU СССР HD;bcu-ussr;9543
+BCUMedia HD;bcu-media;4985
+Bloomberg;bloomberg;3122
+Blue Hustler;hustler-blue;87318
+Bollywood HD;bollywood-hd;18481
+Bolt;bolt;4893
+Boomerang;boomerang;13968
+BOX Anime HD;box-anime;1835
+BOX Be ON Edge 1 live HD;box-beonedge-1-live;289
+BOX Be ON Edge 2 live HD;box-beonedge-2-live;227
+BOX Be ON Edge HD;box-beonedge;588
+BOX Cyber HD;box-cyber;3259
+BOX Docu. HD;box-docu;186
+BOX Franchise HD;box-franchise;3699
+BOX Game HD;box-game;1501
+BOX Gangster HD;box-gangster;3166
+BOX Hybrid HD;box-hybrid;2568
+BOX M.Serial HD;box-mserial;2500
+BOX Memory HD;box-memory;3677
+BOX Music 4K;box-music4k;928
+BOX Oscar HD;box-oscar;16413
+BOX Relax 4K;box-relax4k;1399
+BOX Serial HD;box-serial;2709
+BOX Spy HD;box-spy;2909
+BOX Travel HD;box-travel;1782
+BOX Western HD;box-western;3090
+BOX Zombie HD;box-zombie;2054
+Bridge TV;bridge;3901
+Bridge TV Classic;topsong;3778
+Bridge TV Deluxe;bridge-hd;4020
+Bridge TV Hits;dange;3911
+Bridge TV Русский хит;rusong;4603
+Bridge TV Шлягер;shlyager;2390
+Bridge Фрэш;bridge-fresh;598
+Brodilo TV;brodilo;95
+C-Cartoon;c-cartoon;29
+C-Comedy;c-comedy;248
+C-History;c-history;197
+C-Inquest;c-inquest;202
+C-Marvel;c-marvel;256
+Candy;candy;15988
+CandyMan;candyman;226
+Cartoon network;cartoon;29254
+Cartoons 90;cartoons-90;1652
+Cartoons Big;cartoons-big;2727
+Cartoons Short;cartoons-short;2403
+CBS Reality;CBSReality.ru;13097
+CGTN Русский;cctv;2264
+Christmas + HD;ChristmasPlusHD.ge;18
+Chveni Magti;ChveniMagti.ge;7
+Cine+;cine+;159
+Cine+ HD;cine+hd;273
+Cine+ Hit HD;cine+hit-hd;799
+Cine+ Kids;cine+kids;181
+Cine+ Legend;cine+legend;406
+Cinema;park-razvlecheniy;18468
+Cinema (Космос ТВ);Cinema.ru;362
+CineMan;cineman;13463
+CineMan Action;cineman-action;15330
+Cineman AM;Cineman.am;3502
+CineMan Marvel;cineman-marvel;8868
+CineMan Melodrama;cineman-melodrama;6251
+CineMan Thriller;cineman-thriller;10130
+CineMan Top;cineman-top;9538
+CineMan VHS;cineman-vhs;5444
+CineMan Катастрофы;cineman-disasters;7710
+CineMan Комедия;cineman-comedy;7159
+CineMan Лесник;cineman-forester;8009
+CineMan Ментовские Войны;cineman-MW;6823
+CineMan Пёс;cineman-PES;11550
+CineMan РуКино;cineman-rukino;9200
+CineMan Сваты;cineman-svaty;7451
+CineMan Симпсоны;cineman-thesimps;2175
+CineMan Скорая помощь;cineman-ER;2276
+CineMan Ужасы;cineman-uzhasy;6333
+Clarity4K Netflix;clarity4k-netflix;759
+Clarity4K Приключения;clarity4k-prikluchenia;960
+Clarity4K Путешествие;clarity4k-puteshestvie;75
+club MTV International;mtv-dance;4368
+CNBC Europe;cnbc;2267
+CNL Европа;cnl-europe;1489
+CNL Сибирь;cnl-sibiria;0
+CNL Украина;cnl-ukraine;504
+CNN;cnn;23828
+Comedie+ HD;ComediePlusHD.ge;1201
+Comedy AM;Comedy.am;62
+Comedy TV GE;ComedyTV.ge;58
+Da Vinci Learning Россия;da_vinci-rus;11716
+Dardimandi;Dardimandi.ge;13
+Detektiv.tv;detektiv;48
+Digi + 4K Ultra HD;DigiPlus4KUltraHD.ge;27
+Digi + Action HD;DigiPlusActionHD.ge;54
+Digi + Cinema HD;DigiPlusCinemaHD.ge;48
+Digi + Comedy HD;DigiPlusComedyHD.ge;33
+Digi + Documentary HD;DigiPlusDocumentaryHD.ge;13
+Digi + Drama HD;DigiPlusDramaHD.ge;36
+Digi + Family HD;DigiPlusFamilyHD.ge;42
+Digi + HD;DigiPlusHD.ge;35
+Digi + Horror HD;DigiPlusHorrorHD.ge;41
+Digi + Idol HD;DigiPlusIdolHD.ge;82
+Digi + Kids HD;DigiPlusKidsHD.ge;36
+Digi + Music HD;DigiPlusMusicHD.ge;18
+Digi + Premiere HD;DigiPlusPremiereHD.ge;42
+DIGI+ MUSIC 4K;DIGIPlusMUSIC4K.ge;20
+DIGI+ Series HD;DIGIPlusSeriesHD.ge;35
+DIGI+ Stars;DIGIPlusStars.ge;5
+DIGI+4K 2;DIGIPlus4K2.ge;48
+Discovery Science;discov_sci;55881
+Discovery Восточная Европа;discov_east;657
+Discovery Россия;discov_rus;37402
+Discovery Россия HD;discov_rus-hd;58170
+DocuBox HD;docubox-hd;13534
+Dosug TV Comedy;dosug-tv-comedy;1826
+Dosug TV Fantastic;dosug-tv-fantastic;3180
+Dosug TV History;dosug-tv-history;2489
+Dosug TV HIT;dosug-tv-hit;3652
+Dosug TV Horror;dosug-tv-horror;1565
+Dosug TV Kids;dosug-tv-kids;1910
+Dosug TV Marvel;dosug-tv-marvel;2143
+Dosug TV New;dosug-tv-new;2263
+Dosug TV Russian;dosug-tv-russian;2564
+Dosug TV VHS;dosug-tv-vhs;2995
+Dosug TV Сваты;dosug-tv-svaty;2478
+Dosug TV Сериал;dosug-tv-serial;3586
+Dosug TV Скорая помощь;dosug-tv-skoraya-pomozh;632
+Dosug TV СССР;dosug-tv-cccp;2990
+Dosug TV Ходячие Мертвецы;dosug-tv-walking-dead;1592
+DosugTv Новогодний;dosug-tv-novogodny;50
+DOT Dance TV;dotdance;2
+DTX;discov_turbo-extra;22401
+ducktv;duck;7975
+ducktv plus;ducktv-plus;721
+DW English;dwelle;2274
+E;game-show;2218
+Eco TV;eko;63
+English Club TV;english-club;11967
+Enki Benki;EnkiBenki.ge;8012
+Enter-фильм;enter-film;2148
+Epic Drama;epic-drama;30344
+Epoque;epoque;307
+Eromania 4K;eromania-4k;9075
+Ertsulovneba;Ertsulovneba.ge;351
+EU.Music;eumusic;1126
+Euronews (русский);euro;61790
+Europa Plus TV;europa-plus;4775
+Eurosport;esp;46695
+Eurosport 1;esp-int;2292
+Eurosport 1 HD;esp-hd;99756
+Eurosport 1 HD;esp-int-hd;1739
+Eurosport 2;esp2;69164
+Eurosport 2;esp2-int;1177
+Eurosport 2 HD;esp2-int-hd;1353
+Eurosport 2 HD CEE;esp2-hd;5346
+Eurosport 2 North-East;esp2-ne;0
+Eurosport 2 North-East HD;esp2-ne-hd;145
+Eurosport 4K;esp-4k;6137
+Eurosport Gold HD;esp-gold;156
+Extreme sports;extreme-sports;19886
+FAN;fan;9090
+Fashion & Lifestyle;fashion-one;472
+Fashion & Lifestyle HD;fashion-one-hd;1801
+Fashion & Style 4K;fashion-one-4k;129
+Fashion TV Europe;fashion;26025
+Fashion TV Россия;fashiontv-ru;521
+FashionBox HD;fashion-box-hd;793
+Fast&FunBox HD;fast-n-funbox-hd;3615
+FightBox HD;fight-box-hd;7534
+Film.Ua Drama;filmua-drama;2909
+FilmBox ArtHouse;film-box-arthouse;8783
+FilmBox Russia;film-box;17518
+Filmzone AM;Filmzone.am;490
+FlixSnip HD;flixsnip;3844
+FLUX HD;flux;157
+Food Network Россия;food-network-rus;13493
+Formula;Formula.ge;933
+FOX Kids Play;FOXKidsPlay.ge;26
+Fox Life Россия;fox-life;26489
+Fox Life Россия HD;fox-life-hd;8552
+FOX Россия;fox-crime;57745
+FOX Россия HD;fox-hd;101774
+France 24 English;france24;17007
+Gags Network;gags-network;2973
+Galaxy-TV;galaxy;4520
+GDS TV;GDSTV.ge;586
+GlobalStar TV;globalstar;236
+Gulli Girl;gulli;10333
+Gurjaani TV;GurjaaniTV.ge;32
+H1 Armenia;H1.am;10729
+H2 Armenia;H2.am;6335
+H3 Armenia;H3.am;398
+Hay TV;HayTV.am;3124
+HD Медиа;hdmedia;218
+HD Медиа 3D;hdmedia3d;0
+HDL;hd-life;7042
+HGTV Russia;hgtv;26355
+History Россия;history-rus;19279
+History Россия HD;HistoryHD.ru;61859
+History2 Россия;history2-rus;17289
+HITV;hitv;3
+Hollywood;hollywood;16618
+Hollywood HD;hollywood-hd;23600
+Home 4K;home4k;3030
+Home+ HD;HomePlusHD.ge;10
+Hustler TV Europe;hustler-euvrope;1327
+ICTV;ictv;5358
+ID Investigation Discovery (Европа);id-extra-evropa;854
+ID Investigation Discovery (Россия);id-extra;40174
+Imedi TV;ImediTV.ge;1533
+InRating;inrating;109
+INSIGHT HD;insight-tv-hd;3301
+Insight Ultra HD;insight-uhd;1919
+Jan TV;JanTV.am;2644
+Jetix;Jetix.ge;22
+Jetix Play;JetixPlay.ge;26
+JimJam;jimjam;10363
+Kavkasia TV;KavkasiaTV.ge;104
+Kazakh TV;kazakh-tv;61
+KAZsport;kazsport;443
+KBC-Comics;kbc-comics;1191
+KBC-Elite Comedys;kbc-elite-comedys;1283
+KBC-Family Animation;kbc-family-animation;1195
+KBC-Fantastic;kbc-fantastic;1458
+KBC-History;kbc-history;1314
+KBC-Light Сериал RU;kbc-light-serial-ru;999
+KBC-Newfilm;kbc-newfilm;2016
+KBC-Premium;kbc-premium;1747
+KBC-Russian Комедия;kbc-russian-comedia;1709
+KBC-Second HIT;kbc-second-hit;897
+KBC-Ultra;kbc-ultra;124
+KBC-Видак;kbc-vidak;1053
+KBC-ВОВ;kbc-vov;303
+KBC-Гай Ritchie And Tarantino;kbc-ritchie-tarantino;159
+KBC-Драмаtic;kbc-dramatic;147
+KBC-Кинотеатр;kbc-kinoteatr;1017
+KBC-Кошмарное;kbc-koshmar;964
+KBC-Наш Rock;kbc-nash-rock;725
+KBC-Союзмультzal;kbc-multzal;124
+KBC-Страна СССР;kbc-sssr;2357
+KBC-Тест;kbc-test;154
+KBC-Шпионское;kbc-spy;1325
+KBS World;kbs-world;331
+Kentron;Kentron.am;8323
+KHL;kxl;5343
+KHL Prime;kxl-hd;4002
+Kinojam 1;kinojam1;5378
+Kinojam 2;kinojam2;5199
+KinoLiving;kinoliving;1100
+Kinoman AM;Kinoman.am;4533
+Kitchen+;KitchenPlus.ge;11
+Lale;lale;661
+Leomax+;ttc;3
+Liberty Автогир;liberty-avtogir;107
+Love Nature 4K;love-nature-4k;8082
+Luxe.TV;luxtv;1386
+Luxe.TV HD;luxtv-hd;1
+Luxury;luxury;1070
+M1 Global TV;m1-global;1732
+Maestro;Maestro.ge;836
+Magti Hiti;MagtiHiti.ge;9
+Magti Kino;MagtiKino.ge;8
+Marao TV;MaraoTV.ge;750
+MCM Top Россия;mcm-top;3633
+Mezzo;mezzo;3523
+Mezzo Live HD;mezzo-hd;4296
+Milady Television;milady;91
+MM 007 HD;007-mm;3904
+MM Celebrity HD;celebrity-mm;1366
+MM Classic HD;classic-mm;1450
+MM Experiment HD;experiment-mm;735
+MM FLIP UHD;flip-mm;1588
+MM Honey HD;honey-mm;1342
+MM Lesson HD;lesson-mm;804
+MM Live Planet HD;live-planet-mm;2290
+MM Love HD;love-mm;2689
+MM NewFilm 1 HD;newfilm1-mm;3393
+MM NewFilm 2 HD;newfilm2-mm;3190
+MM NewFilm 3 HD;newfilm3-mm;3170
+MM NewFilm RU HD;newfilmru-mm;2884
+MM OldSchool HD;oldschool-mm;1261
+MM Smile HD;smile-mm;883
+MM Tom And Jerry HD;tom-and-jerry-mm;1273
+MM Translation HD;translation-mm;1667
+MM UFO HD;ufo-mm;2564
+MM USSR 1941-1945 HD;ussr-1941-1945-mm;4381
+MM USSR Детектив HD;ussr-detektiv-mm;3288
+MM USSR Комедия HD;ussr-komedija-mm;3977
+MM USSR Мультфильм HD;mult-mm;2008
+MM USSR Приключения HD;ussr-prikluchenija-mm;2836
+MM USSR Сказки HD;ussr-skazki-mm;2006
+MM USSR Фантастика HD;ussr-fantastika-mm;2281
+MM Walt Disney HD;walt-disney-mm;1092
+MM Агата Кристи HD;agata-mm;4450
+MM Боевик Classic HD;boevik_classic-mm;3173
+MM Боевик HD;boevik-mm;3638
+MM Вестерн HD;western-mm;2820
+MM Воронины HD;voronini-mm;3044
+MM Грайндхаус HD;grindhouse-mm;4656
+MM Гриффины HD;griffiny-mm;332
+MM Драма HD;drama-mm;1432
+MM Затмение HD;zatmenie-mm;1966
+MM История HD;istorija-mm;2819
+MM Катастрофа HD;katastrofa-mm;2350
+MM Квартирник HD;kvartirnik-mm;923
+MM Киберпанк HD;kiberpunk-mm;1719
+MM Комедия Classic HD;comedy_classic-mm;2172
+MM Комедия HD;comedy-mm;2317
+MM Криминал HD;kriminal-mm;2255
+MM Крутые 90-е HD;krutie-90-e-mm;2956
+MM Кунг-Фу HD;kungfu-mm;1874
+MM Макромир HD;makromir-mm;1504
+MM Мегамир HD;megamir-mm;1382
+MM Микромир HD;micromir-mm;1288
+MM Мифология HD;mifologija-mm;1513
+MM Нуар HD;nuar-mm;1215
+MM Открытия HD;otkritiya-mm;537
+MM Погружение HD;pogrujenie-mm;2120
+MM Полицейский с Рублёвки HD;police-mm;298
+MM Приключения HD;prikluchenija-mm;2758
+MM Роскино HD;roskino-mm;2580
+MM Сваты HD;svati-mm;1697
+MM Семейный 1 HD;family_1-mm;2046
+MM Семейный 2 HD;family2-mm;2266
+MM Синематограф HD;sinematograf-mm;1088
+MM Ситком 2.0 HD;sitkom_2.0-mm;2456
+MM Ситком HD;sitkom-mm;2942
+MM Скорость HD;skorost-mm;1788
+MM Спорт HD;sport-mm;1396
+MM Стивен Кинг HD;st-king-mm;1388
+MM Супергерои HD;supergeroi-mm;2076
+MM Триллер HD;triller-mm;1942
+MM Ужастик HD;ujastik-mm;1354
+MM Ужасы Classic HD;ujasi-classic-mm;1312
+MM Ужасы HD;ujasi-mm;1662
+MM Фантастика HD;fantastika-mm;2055
+MM Фобия HD;fobija-mm;1485
+MostVideo;mostvideo;35
+Motor Trend;motor-trend;3003
+MS ANIMATED HD;animated-ms;941
+MS CRIME HD;crime-ms;116
+MS PRISONS HD;prisons-ms;21
+MS TOONS HD;toons-ms;142
+MS YOUNG BLOOD HD;young-blood-ms;42
+Mtavari Arkhi;MtavariArkhi.ge;1439
+MTV 00s;vh1-europe;8647
+MTV 80s;vh-1-classic;11262
+MTV 90s;mtv-rocks;6298
+MTV AM;mtv-am;75
+MTV European;mtv-eu;1774
+MTV Hits International;mtv-hits;6942
+MTV Live HD;mtvlive-hd;11495
+MTV XMAS HD;MTVXMASHD.ge;11
+MTV Россия;mtv-rus;8146
+Museum HD;museum-hd;782
+Music Box Russia;mb-russia;3131
+MUSICBOX GOLD;musicbox;791
+myZen.tv;melody-zen;864
+myZen.tv HD;melody-zen-hd;107
+Nat Geo Wild Россия;natgeowild;48341
+Nat Geo Wild Россия HD;wild-hd;121149
+National Geographic Россия;natgeo;39602
+National Geographic Россия HD;natgeo_hd;109366
+NHK World-Japan;nhk-world;1326
+Nick Jr;nick-jr;57482
+Nickelodeon HD;nickelod-hd;17574
+Nickelodeon Россия;nickelodeon-rus;66345
+Nickelodeon СНГ;nickelod;774
+Niki Junior;niki-junior;322
+Niki Kids;niki-kids;320
+NLO TV 2;nlo-tv-2;36
+Obieqtivi TV;ObieqtiviTV.ge;508
+Ocean TV;ocean;2784
+Olala;o-la-la;32902
+OstWest;ostwest;12286
+Outdoor Channel;outdoor;6447
+Outdoor HD;outdoor-hd;684
+Palitra News;PalitraNews.ge;165
+Paradise HD;paradise-hd;3930
+Paradox HD;paradox-hd;3255
+Paramount channel Россия;paramount;12511
+Paramount Comedy Россия;paramount-comedy;5251
+Plan B;plan-b;6186
+Planete+ HD;PlanetePlusHD.ge;3936
+Playboy TV UK;playboy;96770
+Pos TV;PosTV.ge;234
+Premiere HD;premiere-hd;6765
+Premiere HD 1;premierehd1;3098
+Premiere HD 2;premierehd2;2987
+Premiere HD 3;premierehd3;3264
+Premiere HD 4;premierehd4;3129
+Premium HD;premium-hd;4303
+Qartuli Arkhi;QartuliArkhi.ge;218
+Quality Channel;QualityChannel.ge;0
+R1;r1;0
+REN TV International;rentv-int;1012
+Riga TV24;RigaTV24.lv;7324
+Rioni TV;RioniTV.ge;8
+RT Д (English);rt-doc;2269
+RT Д (Русский);rt-doc-rus;5100
+RTG HD;rtg-hd;3464
+RTG int.;rtgint;1
+RTG TV;rtgtv;3707
+RTVI Европа;rtvint;19460
+RU.TV;rutv;5781
+Rugby TV;RugbyTV.ge;68
+Russia Today;russia-today;4669
+Russian Extreme (HD REX);russkij-extreme;3276
+Russian Extreme HD;russian-extreme-hd;491
+Russian Extreme Ultra;russian-extreme-ultra;649
+Rustavi 2;Rustavi2.ge;1173
+Saperavi TV HD;SaperaviTV.ge;0
+Sea TV;sea-tv;176
+Serial HD;serial-hd;17799
+Setanta Qazaqstan;setanta-sport-kz;2287
+Setanta Sports 1;setanta-sport;17112
+Setanta Sports 1 Belarus;setanta1-by;7
+Setanta Sports 1 Georgia;setanta1-ge;8
+Setanta Sports 1 Lietuva;setanta1-lt;85
+Setanta Sports 2;setanta-sport-plus;21259
+Setanta Sports 2 Belarus;setanta2-by;0
+Setanta Sports 2 Georgia;setanta2-ge;4
+Setanta Sports Ukraine;setanta-sport-ua;3178
+Setanta Sports Ukraine +;setanta-sport-ua-plus;979
+Shant;Shant.am;3845
+Shopping Live;shopping-live;440
+Shot TV;egoist;8278
+Shoxakat;Shoxakat.am;4776
+Silk Universal;SilkUniversal.ge;105
+SKY HIGH BRAIN;skyhigh-brain;512
+SKY HIGH DOC;skyhigh-doc;348
+SKY HIGH NATURE 4K;skyhigh-nature4k;637
+SKY HIGH UHD HDR;skyhigh-uhdhdr;984
+Spike;spike;284
+Sport 1;sport1;5871
+Sport 2;sport2;5078
+Star Cinema;star-cinema;4555
+Star Family HD;star-family;5843
+Stingray CMusic;c-music;2405
+Stingray iConcerts;iconcerts_hd;3465
+Tava TV;TavaTV.am;469
+Teletoon+ HD;TeletoonPlusHD.ge;960
+Thriller HD;thriller-hd;3717
+TiJi Россия;tiji;4560
+Timeless Dizi Channel;timeless-dizi;2832
+TLC Pan Regional;tlc-panreg;1078
+TLC Россия;tlc-russia;32371
+TLC Россия HD;tlc-russia-hd;27804
+Trace Urban;TraceUrban.ru;2582
+Trash;trashtv;4876
+Travel channel Европа;travel;12131
+Travel channel Европа HD;travel-hd;10266
+Travel+Adventure;travel+adv;4602
+Travel+Adventure HD;travel-adv-hd;5160
+Tun-tunik;Tun-tunik.am;2
+TV 25;TV25.ge;585
+TV Pirveli;TVPirveli.ge;1110
+TV SV 4K;TVSV4K.ge;78
+TV1000 Action East;tv1000-action;27047
+TV1000 East;tv1000;62272
+TV1000 World Kino;tv1000_rus_int;6400
+TV1000 Русское кино;tv1000_rus;19386
+TV5 Monde Europe;tv5monde;5179
+TVM Channel;tvm;258
+TVRUS;tvrus;2055
+U! Premium Armenia;UPremium.am;260
+U! Premium Armenia HD;UPremiumHD.am;15
+UA:Закарпаття;tysa;15
+UA:Крим;1ukraine;1535
+UA:Культура;kultura-ukr;277
+UATV;uatv;2849
+Ultra HD Cinema;uhd-cinema;8705
+USSR HD;ussr-premieregroup;6769
+UZ-Боевики HD;uz-boeviki;3038
+UZ-Бойцовское кино HD;uz-boycovskino;2260
+UZ-Кинокомфорт HD;uz-kinokomfort;266
+UZ-Комедия HD;uz-komedia;2309
+UZ-Мультзал HD;uz-multzal;1236
+UZ-Приключение HD;uz-prikluchenie;3023
+UZ-Ужасное ТВ HD;uz-uzhasnoe;2883
+UZ-Фантастика HD;uz-fantastika;2584
+VF Adventure;vf-adventure;1838
+VF Anime;vf-anime;955
+VF Art house;vf-arthouse;966
+VF Cartoon;vf-cartoon;1189
+VF Cartoon 18+;vf-cartoon-18pl;2403
+VF Classic;vf-classic;6618
+VF Comedy;vf-comedy;1798
+VF Comics;vf-comics;1043
+VF Detective;vf-detective;1460
+VF Family;vf-family;1622
+VF Fantastic;vf-fantastic;1630
+VF Fantasy;vf-fantasy;1691
+VF Marvel;vf-marvel;1716
+VF Melodrama;vf-melodrama;1691
+VF Mystic;vf-mystic;1687
+VF Premiere;vf-premiere;2106
+VF Series;vf-series;1979
+VF Thriller;vf-thrilr;1394
+VF TOP Series;vf-top-series;741
+VF VHS;vf-vhs;7
+VF VHS Cartoon;vf-vhs-cartoon;752
+VF Боевик;vf-boevik;4010
+VF Военные;vf-voennye;2512
+VF Воронины;vf-voronins;1167
+VF Индия;vf-indiya;1221
+VF История;vf-istorya;1270
+VF Катастрофы;vf-katastrofy;2148
+VF Кино 4K;vf-kino4k;1367
+VF Классика;vf-klassika;3167
+VF Клиника;vf-klinika;658
+VF Комедия;vf-komedia;2120
+VF Криминал;vf-kriminal;1098
+VF Малыш;vf-malysh;784
+VF Мосфильм;vf-mosfilm;3585
+VF Мультфильмы СССР;vf-multfilmy-sssr;2475
+VF Мыльные оперы;vf-mylnoper;688
+VF Наша победа;vf-pobeda;3500
+VF Оскар;vf-oskar;1654
+VF Премьера;vf-premiera;2199
+VF Сваты;vf-swty;1406
+VF Сериал;vf-serial;1242
+VF Сериал 4K;vf-serial4k;1012
+VF След;vf-sled;1358
+VF Солдаты;vf-soldats;1685
+VF Тайны следствия;vf-taynsled;1547
+VF Ужасы;vf-uzhasy;1662
+VF Ужасы VHS;vf-uzhasy-vhs;1372
+VF Универ;vf-univer;958
+VF Фильмы СССР;vf-filmy-sssr;3749
+VHS HD;vhshd;3836
+Viasat Explore Россия;explorer;46952
+Viasat History CEE;history;45116
+Viasat Nature CEE;viasat-nature;16656
+Viasat Nature/History HD;nature-history;17932
+Viasat Sport Россия;viasat-sport;12498
+Victory HD;victory-hd;4035
+Viju Explore;viasat-explore;2812
+Viju+ Planet;viasat-nature-history-hd;1549
+ViP Comedy CEE;vip-comedy-cee;1879
+ViP Comedy HD;tv1000-comedy-hd;32830
+ViP Megahit CEE;vip-megahit-cee;1315
+ViP Megahit HD;tv1000-megahit-hd;24642
+ViP Premiere;tv1000-premium;3472
+ViP Premiere CEE;vip-premiere-cee;11
+ViP Premiere HD;tv1000-premium-hd;35431
+VIP Serial;vip-serial;9242
+Women's Magazine;womens-magazine;56
+World Business Channel;wbc;23
+World Fashion Channel Россия;world-fashion;2841
+Xsport;xsport;1419
+Xsport+;xsport-plus-ua;597
+Yerkir Media;YerkirMedia.am;7518
+YOSSO TV 4K;yosso-4k;1688
+YOSSO TV Adrenaline;yosso-adrenalin;3562
+YOSSO TV Adventure;yosso-adventure;2921
+YOSSO TV BEST;yosso-best;2625
+YOSSO TV Grand;yosso-grand;2339
+YOSSO TV Kids;yosso-kids;3860
+YOSSO TV Music Hits;yosso-musichits;1103
+YOSSO TV Netflix;yosso-netflix;1980
+YOSSO TV New Кино;yosso-newkino;5294
+YOSSO TV Oblivion;yosso-oblivion;2848
+YOSSO TV SEXY;yosso-sexy;14683
+YOSSO TV Thriller;yosso-thriller;2927
+YOSSO TV VHS;yosso-vhs;3120
+YOSSO TV Забавное;yosso-zabavno;2862
+YOSSO TV Ковбойское;yosso-cowboy;2545
+YOSSO TV Русские фильмы;yosso-rusfilm;5712
+YOSSO TV Советские фильмы;yosso-sovfilm;5218
+YOSSO TV Союзмульт;yosso-soyuzmult;1055
+YOSSO TV Трагичное;yosso-tragic;2398
+ZeeTV Россия;zee;4048
+Zoom;zoom;1672
+ZooПарк;zoopark;2820
+Авто Плюс;avto-plus;15450
+Авто24;avto24;4006
+Анекдот ТВ;anekdottv;2733
+Арсенал;arsenal;5824
+Архыз 24;arkhyz24;311
+Астрахань 24;astraxan24;445
+Афонтово;afontovo;18
+Беларусь 1;belarus1;9275
+Беларусь 2;belarus2;3610
+Беларусь 24;bel24;4852
+Беларусь 3;belarus3;5901
+Беларусь 5;belarus5;3264
+БелМузТВ;belmuztv;332
+БелРос;tpo;1783
+Белсат;belsat;1176
+Бигуди;bigudi;1765
+Блокбастер;blokbaster;13472
+Блокбастер HD;blokbaster-hd;1784
+Бобер;bober;6487
+Бокс ТВ;boxtv;4474
+Большая Азия;big-asia;2679
+БСТ;bct;1702
+В гостях у сказки;vgus;11166
+В мире животных;animal-family-hd;5870
+Вместе-РФ;vmeste-rf;3426
+Волга;volga;662
+Вопросы и ответы;voprosy-i-otvety;3185
+Восток ТВ;vostok;4195
+Время;vremya;57131
+ВТВ;btb;343
+Глазами туриста;glazami-turista;5417
+Глас;glas;31
+Дача;dacha;799
+День Победы HD;den-pobedy;18527
+Детский мир;det;14125
+Диалоги о рыбалке;dialogi-fishing;8989
+Дикая охота HD;dikaya-oxota;7622
+Дикая рыбалка HD;dikaya-rybalka;11538
+Дикий;dikij;5739
+Доверие;doverie;13092
+Дождь. Optimistic channel;dozhd;64261
+Доктор;24dok;5348
+Дом;dom;142
+Дом кино;domkino;71812
+Дом кино Премиум;domkino-prem;28954
+Домашние животные;domashnie-zhivotnye;3887
+Домашний;home;123408
+Домашний (+2);home2;17256
+Домашний (+4);home4;37314
+Домашний (+6);home6;1327
+Домашний (+7);home7;11559
+Домашний International;home-int;1714
+Дон 24;ugdon;332
+Донбасс;donbass;5
+Дорама;dorama;10118
+Драйв;drive;2713
+Душевное;nashe-hd;30793
+Еврокино;evrokino;19332
+ЕГЭ;ege;463
+Еда;eda;7985
+Еда Премиум;eda-hd;5432
+Енисей;enisey;194
+Еспресо TV;espreso;3940
+Жар Птица;zhar-ptica;789
+Жара;zhara;5121
+Живая планета;living-planet;5107
+Живая природа HD;wildnature-hd;3437
+Живи;zhivi;1900
+Живи активно;zhivi-aktivno;770
+Загородная жизнь;zagorzhizn;2880
+Загородный;zagorodny;5472
+Зал суда;zal-suda;1315
+Звезда;zvezda;134395
+Звезда (+2);zvezda2;20867
+Звезда (+4);zvezda4;28944
+Звезда (+6);zvezda6;4506
+Звезда (+7);zvezda7;11993
+Звезда Плюс;zvezda-plus;61490
+Здоровое ТВ;zdorovoe;2329
+Зоо ТВ;zoo-tv;1477
+Известия;izvestia;40934
+Иллюзион+;illuzion+;14592
+Индиго;indigo;43
+Индийское кино;indiya;27442
+Интер;inter;12672
+Интер+;inter-plus;1190
+История;istoria;4781
+К1;k1;23429
+К2;k2;2283
+Калейдоскоп ТВ;kaleidoskop;657
+Камеди;kamedi;12909
+Канал Disney;disney;20147
+Канал Disney (+2);disney_2;10
+Канал Disney (+7);disney_7;5
+Капитан Фантастика;ginger-hd;2343
+Капитан Фантастика HD;kapitan-hd;564
+Карусель;karusel;15304
+Карусель (+2);karusel+2;51
+Карусель (+3);karusel+3;926
+Карусель (+4);karusel+4;990
+Карусель (+6);karusel+6;3
+Карусель (+7);karusel+7;365
+Карусель (+8);karusel+8;17
+Карусель International;karusel-int;24
+Квартал ТВ;kvartal;1763
+КВН ТВ;kvn-tv;10756
+Київ;kiev;935
+Кинеко;kineko;6870
+КИНО UHD;kino-uhd;9039
+Кино ТВ;kino-tv;43701
+Кинокомедия;kinokomediya;41874
+Киномикс;kino-plus;54685
+Кинопоказ HD;kinopokaz;19719
+Кинопоказ SD;kinopokaz+3;56
+Кинопремьера HD;ntv-premiera;46997
+КиноСат;kinosat;4204
+Киносвидание;ntv-kinoklub;57090
+Киносемья;hd-kino;32282
+Киносерия;mnogo-tv;29472
+Киноужас;kinouzhas;18939
+Кинохит;kinohit;53915
+Ключ;kluch;1191
+Комедийное;kinopokaz-hd2;15944
+Комедия (ВГТРК);komediya;22842
+Конный мир;konnyj-mir;1814
+Красная линия;krasnaya-liniya;8048
+Крик-ТВ;krik;539
+Кто есть кто;kto-est-kto;5027
+Ктокуда;ktokuda;770
+Кубань 24;kuban24;0
+Кубань 24 ОРБИТА;orbita;5368
+Культура;kultura;36542
+Культура (+2);kultura+2;8119
+Культура (+4);kultura+4;712
+Культура (+6);kultura+6;2
+Культура (+7);kultura+7;0
+Культура (+8);kultura+8;6
+Курай;kurai;197
+Кус-Кус;kus-kus;779
+Кухня ТВ;kuhnya;10666
+ЛДПР ТВ;ldpr;1292
+Любимое HD;nashe-lubimoe;29096
+Ля-минор;lya-minor;2647
+Ля-минор ТВ;lya-minor-tv;23
+М1;m-1;2669
+М2;m-2;1152
+Малыш;malish;1395
+Малятко TV;malyatko;160
+Мама;mat-i-ditya;2868
+Матч Премьер;ntv-nashfootball;48267
+Матч ТВ;match;46418
+Матч! (+2);match+2;123
+Матч! (+4);match+4;0
+Матч! (+6);match+6;0
+Матч! (+8);match+8;7
+Матч! Арена;sport1_rus;8067
+Матч! Арена HD;sport1_hd;27948
+Матч! Боец;boec;14863
+Матч! Игра;sport2_rus;6443
+Матч! Игра HD;hd-sport;6703
+Матч! Планета;ntv-sport;4996
+Матч! Страна;sport-plus;8776
+Матч! Футбол 1;ntv-football-1;40529
+Матч! Футбол 2;ntv-football-2;23135
+Матч! Футбол 3;ntv-football-3;29249
+Мега;mega;26652
+Мир;mir;62140
+Мир (+2);mir2;8629
+Мир (+4);mir4;6484
+МИР (+6);mir6;513
+Мир (+7);mir7;11660
+Мир 24;mir24;22157
+Мир Баскетбола;mir-basketbola;1712
+Мир вокруг;mir-vokrug;144
+Мир сериала;mir-seriala;17038
+Мир Увлечений;mir-uvlechenij;165
+Москва-24;moskva24;14760
+Мосфильм HD;mosfilm;26795
+Мосфильм. Золотая коллекция;mosfilm-golden;21767
+Моторспорт ТВ;motorsport;2330
+Моя планета;moya-planeta;10936
+Моя планета HD;iq-hd;1818
+Моя стихия;nautical;3062
+Мужское кино;man-kino;54500
+Мужской;Muzhskoj.ru;4123
+Муз-ТВ;muz-tv;5452
+МУЗ-ТВ (+2);muz-tv+2;2
+МУЗ-ТВ (+4);muz-tv+4;1
+МУЗ-ТВ (+6);muz-tv+6;1
+Музыка Первого;muzika1;5127
+Мульт;mult;12567
+Мультиландия;multimania;7011
+Мультимузыка;strana;2568
+Мультимузыка;multimuzyka;2869
+Надежда;nadezhda;678
+Надия;nadiya;125
+НАНО;nano;2092
+Настоящее время;current-time;26309
+Наука;nauka-ukr;259
+Наука 2.0;nauka;5786
+НАШ;maxxi;118
+Наш Кинопоказ;nash-kinopokaz;13578
+Наш Кинопоказ HD;nash-kinopokaz-hd;1939
+Наша Сибирь;nasha-sibir;524
+Наша Тема;nasha-tema;2105
+Наше HD;semeinoe-hd;14185
+Наше кино;nashekino;289
+Наше любимое кино;lyubimoe-kino;19481
+Наше Мужское;nashe-muzhskoe;30137
+Наше Мужское HD;nashe-muzhskoe-hd;1000
+Наше новое кино;nashe-novoe;58687
+Независимые;nezavisimye;13
+НЛО TV;nlo;62
+Новый канал;novkan;6868
+Новый мир;novyi-mir;3003
+Ностальгия;nostalgia;13972
+НСТ;nstv;23230
+НТВ;ntv;414573
+НТВ (+2);ntv2;288050
+НТВ (+3);ntv3;43
+НТВ (+4);ntv4;73698
+НТВ (+6);ntv6;5351
+НТВ (+7);ntv7;56047
+НТВ (+8);ntv8;14572
+НТВ Право;ntv-pravo;14281
+НТВ Сериал;ntv-serial;49249
+НТВ Стиль;ntv-style;11067
+НТВ-Беларусь;ntv-bel;5817
+НТВ-Мир;ntvmir;168781
+НТВ-Хит;ntv-hit;25687
+НТН;ntn;2950
+О, Кино!;okino;162
+О!;o;5785
+О! (+2);o+2;0
+О2ТВ;o2tv;3025
+ОНТ;ont;4634
+Оружие;oruszie;4607
+Остросюжетное HD;ostrsuszet-hd;25863
+ОТВ (Екатеринбург);otv-ekaterinburg;0
+Открытый HD;open-hd;21
+Открытый мир;open-world;1750
+ОТР;otr;36230
+ОТР (+2);otr+2;2542
+ОТР (+4);otr+4;2437
+ОТР (+6);otr+6;2
+ОТР (+8);otr+8;49
+ОТС;ots;666
+Охота и рыбалка;ohota-i-rybalka;9604
+Охотник и рыболов HD;ohotnik-i-rybolov-hd;7989
+Оце;qtv;1548
+Первый автомобильный;1avto;671
+Первый вегетарианский;1vegan;1422
+Первый городской;1gorodskoi;167
+Первый деловой;1delovoi;302
+Первый канал -1;ort-1;129
+Первый канал (+2);ort+2;58335
+Первый канал (+4);ort+4;93523
+Первый канал (+6);ort+6;43592
+Первый канал (+8);ort+8;24544
+Первый канал (Россия);ort;302960
+Первый канал (Россия) Европа;ortint;35404
+Первый канал (Россия) СНГ;ort-sng;15805
+Первый канал +1;ort+1;125
+Первый канал +3;ort+3;120
+Первый канал +5;ort+5;102
+Первый канал +7;ort+7;1552
+Первый канал +9;ort+9;56
+Первый канал HD;ort-hd;515343
+Первый канал США;1tv-usa;0
+Первый космический;eureka-hd;3180
+Первый метео;1meteo;83
+Первый образовательный;1obr;285
+Перец International;peretz-int;8541
+Перший Західний;lviv;219
+Пес и Ко;pes-i-ko;520
+ПИК ТВ;piktv;16
+Пиксель;pixel;1191
+Пингвин;lolo;22
+Пингвин (+2);lolo+2;0
+ПлюсПлюс;plusplus;1587
+Победа;pobeda;234911
+Поехали!;poehali;3699
+ПравдаТУТ;pravda-tut;631
+Премиальное HD;kinopremium-hd;19641
+Приключения HD;puteshestviya-hd;3370
+Про бизнес;prodengi;949
+Про Любовь;pro-lyubov;14161
+Продвижение;prodvizhenie;1608
+Продвижение (+3);prodvizhenie+3;0
+Продвижение (+4);prodvizhenie+4;0
+Продвижение (+7);prodvizhenie+7;0
+Промо Ultra HD;promo-ultra-hd;0
+Просвещение;prosveschenie;393
+Прямой;tonis;1549
+Прямой HD;tonis-hd;1273
+Психология21;psihologiya21;2480
+Пятница;pyatnica;97758
+Пятница (+2);pyatnica2;9036
+Пятница (+3);pyatnica3;0
+Пятница (+4);pyatnica4;5920
+Пятница (+6);pyatnica6;4992
+Пятница (+7);pyatnica7;21650
+Пятница International;pyatnica-int;180
+Пятый канал;piter;134772
+Пятый канал (+2);piter+2;19644
+Пятый канал (+4);piter+4;19473
+Пятый канал (+7);piter+7;7768
+Рада;rada;968
+Радость моя;radost-moya;1386
+Раз;raz;173
+РБК ТВ;rbk;27404
+РЕН ТВ;rentv;195592
+РЕН ТВ (+2);rentv2;37845
+РЕН ТВ (+4);rentv4;43818
+РЕН ТВ (+6);rentv6;1929
+РЕН ТВ (+7);rentv7;25451
+РЕН ТВ 7 Канал;trk7;8
+Ретро;retro;12280
+РЖД ТВ;rzd;1268
+Родное кино;ntv-nashekino;65632
+Романтичное;romantichnoe;13835
+Романтичное HD;romantichnoe-hd;1001
+Россия 1;rtr;591252
+Россия 1 (+2);rossiya+2;132417
+Россия 1 (+4);rossiya+4;121032
+Россия 1 (+6);rossiya+6;76290
+Россия 1 (+8);rossiya+8;31160
+Россия 1 +1;rossiya+1;1272
+Россия 1 +3;rossiya+3;1186
+Россия 1 +5;rossiya+5;2778
+Россия 1 +7;rossiya+7;3248
+Россия 1 +9;rossiya+9;2189
+Россия 1 HD;rossiya-hd;515413
+Россия 24;vesti;116479
+Россия 24 (+2);vesti+2;2769
+Россия 24 (+4);vesti+4;844
+Россия 24 (+6);vesti+6;1
+Россия 24 (+8);vesti+8;6
+РТР-Беларусь;rtr-bel;1826
+РТР-Планета Азия;rtr-planeta-asia;3
+РТР-Планета Америка;planeta-usa;89
+РТР-Планета Европа;rtrpl;97784
+РТР-Планета Украина;planeta-ukr;0
+РуКино HD;rukino-hd;5588
+Русская ночь;russkaya-noch;49719
+Русский бестселлер;rus-bestseller;60998
+Русский детектив;rus-detective;42528
+Русский иллюзион;illuzion;25795
+Русский роман;rus-roman;93167
+Рыбалка;rybalka;415
+Рыболов HD;ohotnik-i-rybolov;2221
+Рыжий;ryzhij;2112
+Санкт-Петербург;spb;12551
+Сапфир;sapfir;7981
+Сарафан;sarafan;29294
+Север;sever;177
+СЕРИАЛ UHD;serial-uhd;8782
+Сигма;sigma;0
+Смайлик ТВ;smilik;857
+Совершенно секретно;sov-sek;3729
+Сонце;sontse;2902
+Союз (Екатеринбург);soyuz;7206
+Спас;spas;11976
+Спас ТВ (+2);spas+2;6
+Спас ТВ (+4);spas+4;2
+Спас ТВ (+6);spas+6;1
+Спортивный;sportivny;1182
+Старт;start;3561
+СТБ;stb;27301
+СТВ;ctv;3478
+Страшное HD;strashnoe-hd;8746
+СТС;sts;121604
+СТС (+2);sts2;22098
+СТС (+4);sts4;23395
+СТС (+6);sts6;1893
+СТС (+7);sts7;23023
+СТС International;sts-int;5357
+СТС International (-7);sts-int-7;0
+СТС Kids;sts-kids;4688
+СТС Love;sts-love;30402
+СТС Love (+2);sts-love+2;7314
+СТС-Мир;sts-mir;1
+Суббота;super;17467
+Суббота (+2);super+2;145
+Суббота (+4);super+4;56
+Суббота (+7);super+7;91
+Тайна;taina;1267
+Танцуй! HD;tancuj;1212
+ТБН Россия;tbn;1803
+ТВ XXI;tv21;14284
+ТВ Центр;tvcen;109675
+ТВ Центр (+2);tvc2;22146
+ТВ Центр (+4);tvc4;31312
+ТВ Центр (+6);tvc6;2533
+ТВ Центр (+7);tvc7;13035
+ТВ Центр (+8);tvc8;5482
+ТВ Центр Международный (TVCI);tvcint;5680
+ТВ-3 (+6);tv3_6;721
+ТВ-3 Россия;tv3;74495
+ТВ-3 Россия (+2);tv3_2;7140
+ТВ-3 Россия (+3);tv3_3;4561
+ТВ-3 Россия (+4);tv3_4;7010
+ТВ-3 Россия (+7);tv3_7;5795
+ТДК;tdk;3295
+Театр;teatr;1996
+Телевсесвит;televsesvit;16
+Теледом;teledom;341
+Телеканал Е HD;telekanal-e-hd;63
+Телекафе;telecafe;137956
+Телепутешествия;puteshestviya;2719
+Терра;terra;3167
+ТЕТ;tet;5800
+Техно 24;24texno;6407
+ТЛУМ HD;tlum-hd;1488
+ТНВ-Планета;tnv-planeta;3673
+ТНВ-Татарстан;tnv;512
+Тномер;tnomer;379
+ТНТ;tnt;200420
+ТНТ - Скат;tnt-scat;0
+ТНТ (+2);tnt2;23766
+ТНТ (+3);tnt3;5
+ТНТ (+4);tnt+4;18985
+ТНТ (+6);tnt+6;1626
+ТНТ (+7);tnt7;19013
+ТНТ-International (Беларусь);tnt-international-bel;67
+ТНТ-International (Европа);tnt-international-eu;26
+ТНТ-International (СНГ);tnt-international;2643
+ТНТ-Music;tnt-music;5032
+ТНТ4;tnt4;72381
+ТНТ4 - 12 канал;12kanal;158
+ТНТ4 (+2);tnt4_2;3084
+ТНТ4 (+4);tnt4_4;2072
+ТНТ4 (+6);tnt4_6;100
+ТНТ4 (+7);tnt4_7;1191
+ТНТ4 International;tnt4-international;26
+Тонус;tonus-tv;765
+Точка отрыва;tochka-otryva;2525
+Точка ТВ;tochka;2842
+Трофей;trofey;1321
+Тюменское время;tymvremya;217
+Удар;ufc;3972
+Украина;trk-ukraina;564
+Украина 24;ukraina24;375
+УНИАН ТВ;unian;892
+Уникум;detskiy;4818
+Усадьба;usadba;4557
+Успех;Uspeh.ru;2097
+Фауна;fauna;975
+Феникс+Кино;fenix+kino;8830
+Футбол (Россия);futbol;2407
+Футбол 1;futbol-ukr;324
+Футбол 2;futbol-plus;492
+Футбол 3;futbol3-ukr;58
+Футбольный HD;footbolny;1039
+Хабар 24;xabar24;76
+Хит;khit;3389
+Хит HD;khit-hd;8964
+Хоккейный;xokkejny;1560
+Хузур ТВ;xuzur-tv;606
+Центральное телевидение;centr-tv;18749
+Че;chetv;64682
+Че (+2);chetv2;2085
+Че (+4);chetv4;8233
+Че (+7);chetv7;870
+ЧП.INFO;chp-info;30
+Шалун;shalun;22080
+Шансон ТВ (Ямал);shansontv;10903
+Шокирующее;kinopokaz-hd1;13884
+Ю;muztv;44734
+Ю (+2);muztv2;1372
+Ю (+7);muztv7;1899
+Югра;ugra;153
+Южная волна;ug-volna;35
+Ямал-Регион;jamalregio;33

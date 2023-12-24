@@ -1,4 +1,5 @@
-﻿using System;
+﻿using M3U8;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -22,7 +23,8 @@ namespace M3_Uditor.Forms
 
         private void buttonOk_Click(object sender, EventArgs e)
         {
-            DialogResult = DialogResult.OK;
+            if ( mTextBoxStreamUrl.Text.IsValidURL())
+                DialogResult = DialogResult.OK;
         }
 
         private void buttonCancel_Click(object sender, EventArgs e)
@@ -33,6 +35,11 @@ namespace M3_Uditor.Forms
         private void FormCreateChannel_Load(object sender, EventArgs e)
         {
             mTextBoxStreamName.Focus();
+        }
+
+        private void mTextBoxStreamUrl__TextChanged(object sender, EventArgs e)
+        {
+            labelInvalidUrlStream.Visible = !mTextBoxStreamUrl.Text.IsValidURL();
         }
     }
 }

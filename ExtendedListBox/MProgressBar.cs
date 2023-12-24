@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -11,71 +12,38 @@ namespace M3Controls
 {
     public partial class MProgressBar : ProgressBar
     {
-        public Color BarColorOutside { get; set; }
-        public Color BarColorCenter { get; set; }
+        public Color ProgressBarColor { get; set; }
+        public Font ProgressBarFont { get; set; }
+       
 
         public MProgressBar()
         {
-            BarColorOutside = Color.Black;
-            BarColorCenter = Color.Yellow;
+            ProgressBarColor = Color.RoyalBlue;
+            ProgressBarFont = new Font("Segoe UI", 8);
 
             this.SetStyle(ControlStyles.OptimizedDoubleBuffer, true);
             this.SetStyle(ControlStyles.UserPaint, true);
-            //this.SetStyle(ControlStyles.ResizeRedraw, true);
+            this.SetStyle(ControlStyles.AllPaintingInWmPaint, true);
 
             Maximum = 100;
-            this.ForeColor = Color.Red;
-            this.BackColor = Color.White;
         }
 
         protected override void OnPaint(PaintEventArgs e)
         {
             base.OnPaint(e);
             
-            // the part that has to be filled with a colored progress:
             int fillWidth = (Width * Value) / (Maximum - Minimum);
-            if (fillWidth == 0)
-            {    // nothing to fill
-                return;
-            }
+            string valueString = string.Format("{0}%", Value);
+            Size stringSize = TextRenderer.MeasureText(valueString, ProgressBarFont);
 
-            // the two rectangles:
-            Rectangle topRect = new Rectangle(0, 0, fillWidth, Height / 2);
-            Rectangle bottomRect = new Rectangle(0, Height / 2, fillWidth, Height / 2);
-
-            // Paint upper half: the gradient fills the complete topRect,
-            // from background color to foreground color
-            LinearGradientBrush brush = new LinearGradientBrush(topRect, BarColorOutside,
-                BarColorCenter, LinearGradientMode.Vertical);
-            e.Graphics.FillRectangle(brush, topRect);
-            brush.Dispose();
-
-            // paint lower half: gradient fills the complete bottomRect,
-            // from foreground color to background color
-            brush = new LinearGradientBrush(bottomRect, BarColorCenter, BarColorOutside,
-                LinearGradientMode.Vertical);
-            e.Graphics.FillRectangle(brush, bottomRect);
-            brush.Dispose();
-
-            // we have missed one line in the center: draw a line:
-            
-            Pen pen = new Pen(BarColorCenter);
-            e.Graphics.DrawLine(pen, new Point(0, topRect.Bottom), new Point(fillWidth, topRect.Bottom));
-            pen.Dispose();
-            
-
-            // if style is blocks, draw vertical lines to simulate blocks
-            if (Style == ProgressBarStyle.Blocks)
+            using ( SolidBrush backgroundBrush = new SolidBrush(Color.LightGray))
+            using ( Pen borderPen = new Pen(Color.DarkSlateGray))
+            using ( SolidBrush fillcolorBrush = new SolidBrush(ProgressBarColor))
             {
-                int seperatorWidth = (int)(this.Height * 0.67);
-                int NrOfSeparators = (int)(fillWidth / seperatorWidth);
-                Color sepColor = ControlPaint.LightLight(BarColorCenter);
-
-                for (int i = 1; i <= NrOfSeparators; i++)
-                {
-                    e.Graphics.DrawLine(new Pen(sepColor, 1),
-                    seperatorWidth * i, 0, seperatorWidth * i, this.Height);
-                }
+                e.Graphics.FillRectangle(backgroundBrush, new Rectangle(0, 0, this.Width, this.Height));
+                e.Graphics.FillRectangle(fillcolorBrush, 0, 0, fillWidth, this.Height);
+                e.Graphics.DrawRectangle(borderPen, 0, 0, this.Width - 1, this.Height - 1);
+                e.Graphics.DrawString(valueString, ProgressBarFont, Brushes.White, this.Width / 2 - stringSize.Width / 2, this.Height / 2 - stringSize.Height / 2);
             }
         }
     }

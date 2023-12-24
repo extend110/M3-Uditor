@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using M3_Uditor.Properties;
 
 namespace M3_Uditor
 {
@@ -16,7 +17,15 @@ namespace M3_Uditor
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormMain());
+
+            if (Settings.Default.ShowStartDialog)
+            {
+                Application.Run(new Forms.FormStart());
+            }
+            else
+            {
+                Application.Run(new FormMain());
+            }
         }
     }
 }

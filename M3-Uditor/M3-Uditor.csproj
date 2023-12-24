@@ -12,6 +12,21 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -25,16 +40,20 @@
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
-    <DebugType>pdbonly</DebugType>
+    <DebugType>none</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>71cb68ce49ae4a7ebafc9f751863c134 %281%29.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,6 +65,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EpgData.cs" />
+    <Compile Include="FinishedMappingEventArgs.cs" />
+    <Compile Include="Forms\FormEpgData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormEpgData.Designer.cs">
+      <DependentUpon>FormEpgData.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +97,30 @@
     <Compile Include="Forms\FormCreateChannel.Designer.cs">
       <DependentUpon>FormCreateChannel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FormEpgMapper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormEpgMapper.Designer.cs">
+      <DependentUpon>FormEpgMapper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormExportSelectGroups.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormExportSelectGroups.Designer.cs">
+      <DependentUpon>FormExportSelectGroups.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormFavorites.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormFavorites.Designer.cs">
+      <DependentUpon>FormFavorites.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormGroupDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormGroupDetails.Designer.cs">
+      <DependentUpon>FormGroupDetails.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FormLoading.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -82,11 +133,23 @@
     <Compile Include="Forms\FormRemoveStreams.Designer.cs">
       <DependentUpon>FormRemoveStreams.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FormSearchReplace.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormSearchReplace.Designer.cs">
+      <DependentUpon>FormSearchReplace.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FormSettings.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\FormSettings.Designer.cs">
       <DependentUpon>FormSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormStart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormStart.Designer.cs">
+      <DependentUpon>FormStart.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\FormStreamDetails.cs">
       <SubType>Form</SubType>
@@ -100,6 +163,12 @@
     <Compile Include="Forms\FormUrlCheck.Designer.cs">
       <DependentUpon>FormUrlCheck.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FormWaitingEpgDownload.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormWaitingEpgDownload.Designer.cs">
+      <DependentUpon>FormWaitingEpgDownload.cs</DependentUpon>
+    </Compile>
     <Compile Include="Helper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -109,6 +178,10 @@
     <Compile Include="Forms\FormWebImporter.Designer.cs">
       <DependentUpon>FormWebImporter.cs</DependentUpon>
     </Compile>
+    <Compile Include="StackObject.cs" />
+    <EmbeddedResource Include="Forms\FormEpgData.resx">
+      <DependentUpon>FormEpgData.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
     </EmbeddedResource>
@@ -121,20 +194,41 @@
     <EmbeddedResource Include="Forms\FormCreateChannel.resx">
       <DependentUpon>FormCreateChannel.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormEpgMapper.resx">
+      <DependentUpon>FormEpgMapper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormExportSelectGroups.resx">
+      <DependentUpon>FormExportSelectGroups.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormFavorites.resx">
+      <DependentUpon>FormFavorites.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormGroupDetails.resx">
+      <DependentUpon>FormGroupDetails.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormLoading.resx">
       <DependentUpon>FormLoading.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormRemoveStreams.resx">
       <DependentUpon>FormRemoveStreams.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormSearchReplace.resx">
+      <DependentUpon>FormSearchReplace.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormSettings.resx">
       <DependentUpon>FormSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormStart.resx">
+      <DependentUpon>FormStart.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormStreamDetails.resx">
       <DependentUpon>FormStreamDetails.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormUrlCheck.resx">
       <DependentUpon>FormUrlCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormWaitingEpgDownload.resx">
+      <DependentUpon>FormWaitingEpgDownload.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -149,7 +243,9 @@
     <EmbeddedResource Include="Forms\FormWebImporter.resx">
       <DependentUpon>FormWebImporter.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="packages.config" />
+    <None Include="..\.editorconfig">
+      <Link>.editorconfig</Link>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -164,6 +260,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\EpgParser\EpgParser.csproj">
+      <Project>{409bda63-57f7-4557-8e53-1f97c3a4398e}</Project>
+      <Name>EpgParser</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ExtendedListBox\M3Controls.csproj">
       <Project>{7b401b02-0b20-42f4-8b3b-0dc77c654d91}</Project>
       <Name>M3Controls</Name>
@@ -177,16 +277,7 @@
     <None Include="Resources\group-visible.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Picol-Picol-Accept.512.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Picol-Picol-Cancel.512.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\group-not-visible.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Creative-Freedom-Free-Funktional-04-Save.48.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Icojam-Blue-Bits-Arrow-down.256.png" />
@@ -195,13 +286,113 @@
     <None Include="Resources\Icojam-Blue-Bits-Arrow-up.256.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Pictogrammers-Material-Export.512.png" />
+    <None Include="Resources\StreamOffline.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Ionic-Ionicons-Play.512.png" />
+    <None Include="Resources\StreamOnline.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Icojam-Blue-Bits-Pinions-settings.256.png" />
+    <None Include="Resources\StreamUnkown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewFile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlayButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OpenFile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SaveFile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Export.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\About.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AddButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ExportAsM3U.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RemoveButton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CheckLinks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-deutschland-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-frankreich-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-großbritannien-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-italien-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-niederlande-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-vereinigte-arabische-emirate-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-flagge-von-europa-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-turkei-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\epg-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\ussr.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\germany.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Favorites.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FavoritesYellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FilePath.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SmartIPTV.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 und x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\71cb68ce49ae4a7ebafc9f751863c134.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="71cb68ce49ae4a7ebafc9f751863c134 %281%29.ico" />
+    <None Include="Resources\74H8.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
